@@ -79,7 +79,7 @@ build: clean
 		for FORMAT in $(FORMATS); \
 		do \
 			cd $(CURDIR)/manual; \
-			sisu-$${FORMAT} --no-manifest --verbose $${LANGUAGE}/live-manual.ssm; \
+			sisu-$${FORMAT} --no-search-form --no-manifest --verbose $${LANGUAGE}/live-manual.ssm; \
 		done; \
 	done; \
 
