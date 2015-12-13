@@ -212,7 +212,7 @@ msgstr ""
 #: en/project_bugs.ssi:10
 msgid ""
 "_* Always check first the image status updates on our homepage at http://"
-"live-systems.org/ for known issues."
+"debian-live.alioth.debian.org/ for known issues."
 msgstr ""
 
 #. type: Plain text
@@ -262,7 +262,7 @@ msgstr ""
 #: en/project_bugs.ssi:24
 msgid ""
 "Currently known issues are listed under the section 'status' on our homepage "
-"at http://live-systems.org/."
+"at http://debian-live.alioth.debian.org/."
 msgstr ""
 
 #. type: Plain text

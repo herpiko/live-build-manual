@@ -7,7 +7,7 @@ Live システムは完璧にはほど遠いですが、可能な限り完璧に
 
 せっかちな人向け:
 
-_* 常にまず http://live-systems.org/ にある私達のホームページにあるイメージの更新状況により既知の問題を確認してください。
+_* 常にまず http://debian-live.alioth.debian.org/ にある私達のホームページにあるイメージの更新状況により既知の問題を確認してください。
 
 _* バグ報告を提出する前に使用している live-build、live-boot、live-config、live-tools
 のブランチの*{最新版}* (live-build 4 を使っているなら最新のバージョン 4.x の live-build)
@@ -28,7 +28,7 @@ Debian *{テスト版 (testing)}* と Debian *{不安定版 (unstable)}*
 をベースにしたシステムではなく*{安定版 (stable)} を使ってください。live-build は常に*{安定版 (stable)}*
 リリースをデフォルトとしています。
 
-現在わかっている問題は http://live-systems.org/ にある私達のホームページの「status」に一覧があります。
+現在わかっている問題は http://debian-live.alioth.debian.org/ にある私達のホームページの「status」に一覧があります。
 
 開発用ディストリビューションのパッケージにある問題を正しく識別、修正するための訓練はこのマニュアルの目的ではありませんが、常に確認できることが2つあります:
 *{テスト版 (testing)}* を対象ディストリビューションとしてビルドに失敗した場合に*{不安定版 (unstable)}*

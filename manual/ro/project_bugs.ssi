@@ -10,7 +10,7 @@ recommendations on how to file good bug reports.
 For the impatient:
 
 _* Always check first the image status updates on our homepage at
-http://live-systems.org/ for known issues.
+http://debian-live.alioth.debian.org/ for known issues.
 
 _* Before submitting a bug report always try to reproduce the bug with the
 *{most recent versions}* of the branch of live-build, live-boot, live-config
@@ -34,7 +34,7 @@ If this causes too much difficulty for you, do not build a system based on
 defaults to the *{stable}* release.
 
 Currently known issues are listed under the section 'status' on our homepage
-at http://live-systems.org/.
+at http://debian-live.alioth.debian.org/.
 
 It is out of the scope of this manual to train you to correctly identify and
 fix problems in packages of the development distributions, however, there

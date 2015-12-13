@@ -11,7 +11,7 @@ errores.
 Para los impacientes:
 
 _* Primero, siempre se debe comprobar el estado actualizado de la imagen en
-busca de problemas conocidos en la página web http://live-systems.org/.
+busca de problemas conocidos en la página web http://debian-live.alioth.debian.org/.
 
 _* Antes de presentar un informe de errores, se debe intentar reproducir el
 error con las *{versiones más recientes}* de live-build, live-boot,
@@ -36,7 +36,7 @@ Si esto causa mucha dificultad, no se debe crear un sistema basado en
 siempre crea, por defecto, la versión *{stable}* .
 
 Los problemas detectados se especifican en la sección 'status' de la página
-web http://live-systems.org/.
+web http://debian-live.alioth.debian.org/.
 
 Está fuera del alcance de este manual enseñar cómo identificar y solucionar
 correctamente problemas de los paquetes de las distribuciones en desarrollo,

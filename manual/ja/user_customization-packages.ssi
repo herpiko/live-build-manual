@@ -100,7 +100,7 @@ experimental、そして独自のパッケージを利用できます。追加�
 
 code{
 
- deb http://live-systems.org/ sid-snapshots main contrib non-free
+ deb http://debian-live.alioth.debian.org/ sid-snapshots main contrib non-free
 
 }code
 

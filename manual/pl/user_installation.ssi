@@ -51,7 +51,7 @@ systemach opartych na Debianie, jest on dostarczany przez pakiet
 
 code{
 
- $ git clone git://live-systems.org/git/live-build.git
+ $ git clone git://http://anonscm.debian.org/git/debian-live/live-build.git
 
 }code
 
@@ -95,7 +95,7 @@ code{
 
 Jeśli nie chcesz, kompilować i zainstalować live-build ze źródła, możesz
 użyć zrzutów deweloperskich. Są to automatycznie zbudowane paczki z
-najnowszej wersji Git i są one dostępne na http://live-systems.org/debian/.
+najnowszej wersji Git i są one dostępne na http://debian-live.alioth.debian.org/debian/.
 
 2~ Instalowanie live-boot i live-config
 
@@ -116,8 +116,8 @@ _* Sklonuj źródła live-boot i live-config
 
 code{
 
- $ git clone git://live-systems.org/git/live-boot.git
- $ git clone git://live-systems.org/git/live-config.git
+ $ git clone git://http://anonscm.debian.org/git/debian-live/live-boot.git
+ $ git clone git://http://anonscm.debian.org/git/debian-live/live-config.git
 
 }code
 
@@ -177,5 +177,5 @@ code{
 
 Możesz pozwolić live-build automatycznie skorzystać z najnowszych zrzutów
 deweloperskich live-boot i live-live-config przez skonfigurowanie
-repozytorium pakietu live-systems.org jako repozytorium innych firm w
+repozytorium pakietu debian-live.alioth.debian.org jako repozytorium innych firm w
 katalogu konfiguracyjnym live-build.

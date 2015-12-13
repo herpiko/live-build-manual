@@ -56,7 +56,7 @@ code{
 
  The images are available for download at:
 
-   <http://live-systems.org/cdimage/release/current/>
+   <http://debian-live.alioth.debian.org/cdimage/release/current/>
 
  and later at:
 
@@ -86,7 +86,7 @@ code{
  Contact Information
  -------------------
  For further information, please visit the Live Systems web pages at
- <http://live-systems.org/>, or contact the Live Systems team at
+ <http://debian-live.alioth.debian.org/>, or contact the Live Systems team at
  <debian-live@lists.debian.org>.
 
 }code

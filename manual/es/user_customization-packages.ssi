@@ -144,7 +144,7 @@ imagen.
 
 code{
 
- deb http://live-systems.org/ sid-snapshots main contrib non-free
+ deb http://debian-live.alioth.debian.org/ sid-snapshots main contrib non-free
 
 }code
 

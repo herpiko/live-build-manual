@@ -10,7 +10,7 @@ dotyczące sposobu składania raportów o błędach.
 Dla niecierpliwych:
 
 _* Zawsze należy sprawdzić najpierw aktualizacje statusu obrazu na naszej
-stronie internetowej http://live-systems.org/, w poszukiwaniu znanych
+stronie internetowej http://debian-live.alioth.debian.org/, w poszukiwaniu znanych
 problemów.
 
 _* Przed wysłaniem raportu o błędzie zawsze spróbuj odtworzyć problem z
@@ -36,7 +36,7 @@ Ciebie zbyt wiele trudności, raczej wykorzystaj wydanie
 *{stable}*. live-build zawsze ustawia domyślnie wydanie *{stable}*.
 
 Obecnie znane problemy wymienione są w ramach sekcji "status" na naszej
-stronie internetowej w http://live-systems.org/.
+stronie internetowej w http://debian-live.alioth.debian.org/.
 
 To jest poza zakresem tej instrukcji, aby szkolić się poprawnie
 identyfikować i naprawiać problemy pakietów z dystrybucji rozwojowych,

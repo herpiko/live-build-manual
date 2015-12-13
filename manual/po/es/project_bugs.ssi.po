@@ -217,10 +217,10 @@ msgstr "Para los impacientes:"
 #: en/project_bugs.ssi:10
 msgid ""
 "_* Always check first the image status updates on our homepage at http://"
-"live-systems.org/ for known issues."
+"debian-live.alioth.debian.org/ for known issues."
 msgstr ""
 "_* Primero, siempre se debe comprobar el estado actualizado de la imagen en "
-"busca de problemas conocidos en la página web http://live-systems.org/."
+"busca de problemas conocidos en la página web http://debian-live.alioth.debian.org/."
 
 #. type: Plain text
 #: en/project_bugs.ssi:12
@@ -283,10 +283,10 @@ msgstr ""
 #: en/project_bugs.ssi:24
 msgid ""
 "Currently known issues are listed under the section 'status' on our homepage "
-"at http://live-systems.org/."
+"at http://debian-live.alioth.debian.org/."
 msgstr ""
 "Los problemas detectados se especifican en la sección 'status' de la página "
-"web http://live-systems.org/."
+"web http://debian-live.alioth.debian.org/."
 
 #. type: Plain text
 #: en/project_bugs.ssi:26

@@ -190,20 +190,20 @@ msgstr "1~git-repositories Repositorios Git"
 #: en/project_git.ssi:6
 msgid ""
 "The list of all the available repositories of the ${project} can be found at "
-"http://live-systems.org/gitweb/. The project's git URLs have the form: "
-"#{protocol://live-systems.org/git/repository}#. Thus, in order to clone live-"
+"http://http://anonscm.debian.org/cgit/debian-live/. The project's git URLs have the form: "
+"#{protocol://http://anonscm.debian.org/git/debian-live/repository}#. Thus, in order to clone live-"
 "manual read-only, launch:"
 msgstr ""
 "La lista de todos los repositorios disponibles del ${project} está en http://"
-"live-systems.org/gitweb/. Las URLs git del proyecto tienen la forma: "
-"#{protocolo://live-systems.org/git/repositorio}#. Por lo tanto, para clonar "
+"http://anonscm.debian.org/cgit/debian-live/. Las URLs git del proyecto tienen la forma: "
+"#{protocolo://http://anonscm.debian.org/git/debian-live/repositorio}#. Por lo tanto, para clonar "
 "live-manual en sólo lectura, lanzar: "
 
 #. type: Plain text
 #: en/project_git.ssi:10
 #, no-wrap
-msgid " $ git clone git://live-systems.org/git/live-manual.git\n"
-msgstr " $ git clone git://live-systems.org/git/live-manual.git\n"
+msgid " $ git clone git://http://anonscm.debian.org/git/debian-live/live-manual.git\n"
+msgstr " $ git clone git://http://anonscm.debian.org/git/debian-live/live-manual.git\n"
 
 #. type: Plain text
 #: en/project_git.ssi:14 en/project_git.ssi:22
@@ -213,14 +213,14 @@ msgstr "O,"
 #. type: Plain text
 #: en/project_git.ssi:18
 #, no-wrap
-msgid " $ git clone https://live-systems.org/git/live-manual.git\n"
-msgstr " $ git clone https://live-systems.org/git/live-manual.git\n"
+msgid " $ git clone https://http://anonscm.debian.org/git/debian-live/live-manual.git\n"
+msgstr " $ git clone https://http://anonscm.debian.org/git/debian-live/live-manual.git\n"
 
 #. type: Plain text
 #: en/project_git.ssi:26
 #, no-wrap
-msgid " $ git clone http://live-systems.org/git/live-manual.git\n"
-msgstr " $ git clone http://live-systems.org/git/live-manual.git\n"
+msgid " $ git clone http://http://anonscm.debian.org/git/debian-live/live-manual.git\n"
+msgstr " $ git clone http://http://anonscm.debian.org/git/debian-live/live-manual.git\n"
 
 #. type: Plain text
 #: en/project_git.ssi:30
@@ -229,7 +229,7 @@ msgid ""
 "systems.org:/repository}#."
 msgstr ""
 "Las direcciones para clonar con permiso de escritura tienen la forma: "
-"#{git@live-systems.org:/repositorio}#."
+"#{ssh://git.debian.org/git/debian-live/repositorio}#."
 
 #. type: Plain text
 #: en/project_git.ssi:32
@@ -239,8 +239,8 @@ msgstr "Así que, de nuevo, para clonar live-manual a través de ssh escribir:"
 #. type: Plain text
 #: en/project_git.ssi:36
 #, no-wrap
-msgid " $ git clone git@live-systems.org:live-manual.git\n"
-msgstr " $ git clone git@live-systems.org:live-manual.git\n"
+msgid " $ git clone ssh://git.debian.org/git/debian-live/live-manual.git\n"
+msgstr " $ git clone ssh://git.debian.org/git/debian-live/live-manual.git\n"
 
 #. type: Plain text
 #: en/project_git.ssi:40
@@ -315,8 +315,8 @@ msgstr ""
 #. type: Plain text
 #: en/project_git.ssi:58
 #, no-wrap
-msgid " $  mr bootstrap http://live-systems.org/other/mr/mrconfig\n"
-msgstr " $  mr bootstrap http://live-systems.org/other/mr/mrconfig\n"
+msgid " $  mr bootstrap http://debian-live.alioth.debian.org/other/mr/mrconfig\n"
+msgstr " $  mr bootstrap http://debian-live.alioth.debian.org/other/mr/mrconfig\n"
 
 #. type: Plain text
 #: en/project_git.ssi:61

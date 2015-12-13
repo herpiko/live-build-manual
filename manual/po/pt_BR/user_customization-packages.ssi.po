@@ -252,9 +252,9 @@ msgstr ""
 #. type: Plain text
 #: en/user_customization-packages.ssi:24
 #, fuzzy, no-wrap
-#| msgid " $ lb config --archives live-systems.org\n"
+#| msgid " $ lb config --archives debian-live.alioth.debian.org\n"
 msgid " $ lb config --archive-areas \"main contrib non-free\"\n"
-msgstr " $ lb config --archives live-systems.org\n"
+msgstr " $ lb config --archives debian-live.alioth.debian.org\n"
 
 #. type: Plain text
 #: en/user_customization-packages.ssi:28
@@ -381,7 +381,7 @@ msgstr ""
 #. type: Plain text
 #: en/user_customization-packages.ssi:69
 #, no-wrap
-msgid " deb http://live-systems.org/ sid-snapshots main contrib non-free\n"
+msgid " deb http://debian-live.alioth.debian.org/ sid-snapshots main contrib non-free\n"
 msgstr ""
 
 #. type: Plain text

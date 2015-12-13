@@ -81,12 +81,12 @@ live-images}#clone-configuration-via-git y las versiones estables oficiales
 se publican en https://www.debian.org/CD/live/. Además, las versiones
 antiguas y las futuras, así como las imágenes no oficiales que contienen
 firmware y drivers no libres están disponibles en
-http://live-systems.org/cdimage/release/.
+http://debian-live.alioth.debian.org/cdimage/release/.
 
 2~using-iso-hybrid Uso del servicio de creación de imágenes web
 
 Como un servicio a la comunidad, se ofrece una interfaz web de construcción
-de imágenes en vivo en http://live-systems.org/build/. Este sitio se
+de imágenes en vivo en http://debian-live.alioth.debian.org/build/. Este sitio se
 mantiene en base al mejor esfuerzo. Es decir, aunque nos esforzamos por
 mantenerlo al día y de que esté operativo en todo momento, así como de
 emitir anuncios de interrupciones importantes en el servicio, no podemos
@@ -621,7 +621,7 @@ para almacenar los ficheros squashfs que contienen el sistema de ficheros.
 
 Como de costumbre, se puede construir las imágenes uno mismo o utilizar
 alguna de las imágenes prefabricadas, disponibles en la página web del
-proyecto http://live-systems.org/. Utilizar las imágenes prefabricadas es
+proyecto http://debian-live.alioth.debian.org/. Utilizar las imágenes prefabricadas es
 muy práctico para hacer pruebas hasta que se está seguro de cuales son las
 necesidades reales. Si ya se ha construido una imagen, los ficheros
 necesarios para el arranque desde internet se encuentran en el directorio

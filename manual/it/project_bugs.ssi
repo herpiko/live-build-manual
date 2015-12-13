@@ -10,7 +10,7 @@ recommendations on how to file good bug reports.
 Per gli impazienti
 
 _* Per i problemi noti verificare sempre lo stato degli aggiornamenti
-dell'immagine sulla nostra pagina iniziale http://live-systems.org/.
+dell'immagine sulla nostra pagina iniziale http://debian-live.alioth.debian.org/.
 
 _* Before submitting a bug report always try to reproduce the bug with the
 *{most recent versions}* of the branch of live-build, live-boot, live-config
@@ -35,7 +35,7 @@ Se questo causa troppe difficoltà, non creare un sistema basato su
 su *{stable}* in modo predefinito.
 
 I problemi noti al momento sono elencati sotto la sezione "status" della
-nostra pagina iniziale http://live-systems.org/
+nostra pagina iniziale http://debian-live.alioth.debian.org/
 
 Questo manuale non intende insegnare come identificare e risolvere
 correttamente i problemi dei pacchetti delle distribuzioni di sviluppo,

@@ -114,38 +114,38 @@ msgstr "ソース"
 #: en/index.html.in:40
 msgid ""
 "The sources for this manual are available in a <a href=\"http://git-scm.com/"
-"\">Git</a> repository at live-systems.org."
+"\">Git</a> repository at debian-live.alioth.debian.org."
 msgstr ""
-"このマニュアルのソースは live-systems.org の<a href=\"http://git-scm.com/"
+"このマニュアルのソースは debian-live.alioth.debian.org の<a href=\"http://git-scm.com/"
 "\">Git</a>リポジトリから利用できます。"
 
 #. type: Content of: <html><body><ul><li>
 #: en/index.html.in:44
 msgid ""
-"Browse: <a href=\"http://live-systems.org/gitweb/?p=live-manual.git"
-"\"><small><tt>http://live-systems.org/gitweb/?p=live-manual.git</tt></"
+"Browse: <a href=\"http://http://anonscm.debian.org/cgit/debian-live/live-manual.git"
+"\"><small><tt>http://http://anonscm.debian.org/cgit/debian-live/live-manual.git</tt></"
 "small></a>"
 msgstr ""
-"閲覧: <a href=\"http://live-systems.org/gitweb/?p=live-manual.git"
-"\"><small><tt>http://live-systems.org/gitweb/?p=live-manual.git</tt></"
+"閲覧: <a href=\"http://http://anonscm.debian.org/cgit/debian-live/live-manual.git"
+"\"><small><tt>http://http://anonscm.debian.org/cgit/debian-live/live-manual.git</tt></"
 "small></a>"
 
 #. type: Content of: <html><body><ul><li>
 #: en/index.html.in:45
 msgid ""
-"Git: <a href=\"git://live-systems.org/git/live-manual.git\"><small><tt>git://"
-"live-systems.org/git/live-manual.git</tt></small></a>"
+"Git: <a href=\"git://http://anonscm.debian.org/git/debian-live/live-manual.git\"><small><tt>git://"
+"http://anonscm.debian.org/git/debian-live/live-manual.git</tt></small></a>"
 msgstr ""
-"Git: <a href=\"git://live-systems.org/git/live-manual.git\"><small><tt>git://"
-"live-systems.org/git/live-manual.git</tt></small></a>"
+"Git: <a href=\"git://http://anonscm.debian.org/git/debian-live/live-manual.git\"><small><tt>git://"
+"http://anonscm.debian.org/git/debian-live/live-manual.git</tt></small></a>"
 
 #. type: Content of: <html><body><p>
 #: en/index.html.in:49
 msgid ""
-"<a href=\"http://live-systems.org/\">Live Systems Project</a> &lt;<a href="
+"<a href=\"http://debian-live.alioth.debian.org/\">Live Systems Project</a> &lt;<a href="
 "\"mailto:debian-live@lists.debian.org\">debian-live@lists.debian.org</a>&gt; "
-"- <a href=\"http://live-systems.org/project/legal/\">Legal Information</a>"
+"- <a href=\"http://debian-live.alioth.debian.org/project/legal/\">Legal Information</a>"
 msgstr ""
-"<a href=\"http://live-systems.org/\">Live システムプロジェクト</a> &lt;<a "
+"<a href=\"http://debian-live.alioth.debian.org/\">Live システムプロジェクト</a> &lt;<a "
 "href=\"mailto:debian-live@lists.debian.org\">debian-live@lists.debian.org</"
-"a>&gt; - <a href=\"http://live-systems.org/project/legal/\">法的情報</a>"
+"a>&gt; - <a href=\"http://debian-live.alioth.debian.org/project/legal/\">法的情報</a>"

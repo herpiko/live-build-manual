@@ -68,7 +68,7 @@ code{
 
 #{lb config --config}# オプションを使って Live
 システムの設定を収録しているGitリポジトリを複製します。${project}により保守されている設定を基にしたい場合は
-http://live-systems.org/gitweb/ の #{Packages}# カテゴリーの #{live-images}#
+http://http://anonscm.debian.org/cgit/debian-live/ の #{Packages}# カテゴリーの #{live-images}#
 という名前のリポジトリに目を通してみてください。このリポジトリには Live システムの
 {ビルド済みイメージ}#downloading-prebuilt-images 用の設定を収録しています。
 
@@ -77,7 +77,7 @@ http://live-systems.org/gitweb/ の #{Packages}# カテゴリーの #{live-image
 code{
 
  $ mkdir live-images && cd live-images
- $ lb config --config git://live-systems.org/git/live-images.git
+ $ lb config --config git://http://anonscm.debian.org/git/debian-live/live-images.git
  $ cd images/standard
 
 }code
@@ -90,12 +90,12 @@ non-free ビルド済みイメージは単純に #{--archive-areas "main contrib
 
 code{
 
- [url "git://live-systems.org/git/"]
+ [url "git://http://anonscm.debian.org/git/debian-live/"]
          insteadOf = lso:
 
 }code
 
-を追加すると #{live-systems.org}# にあるgitリポジトリのアドレスを指定する必要があるところで #{lso:}#
+を追加すると #{debian-live.alioth.debian.org}# にあるgitリポジトリのアドレスを指定する必要があるところで #{lso:}#
 を使えるようになります。さらにオプションで末尾の #{.git}# も省くと、この設定を使って新しいイメージの作成を始めるのはこれだけ簡単になります:
 
 code{

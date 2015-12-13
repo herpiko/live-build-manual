@@ -51,7 +51,7 @@ verificar o código mais recente, execute:
 
 code{
 
- $ git clone git://live-systems.org/git/live-build.git
+ $ git clone git://http://anonscm.debian.org/git/debian-live/live-build.git
 
 }code
 
@@ -95,7 +95,7 @@ code{
 Se você não deseja construir ou instalar live-build a partir da fonte, você
 pode usar instantaneos. Estes são construídos automaticamente a partir da
 versão mais recente no Git e estão disponíveis no
-http://live-systems.org/debian/.
+http://debian-live.alioth.debian.org/debian/.
 
 2~ Instalando live-boot e live-config
 
@@ -116,8 +116,8 @@ _ * Consultar as fontes de live-boot e live-config
 
 code{
 
- $ git clone git://live-systems.org/git/live-boot.git
- $ git clone git://live-systems.org/git/live-config.git
+ $ git clone git://http://anonscm.debian.org/git/debian-live/live-boot.git
+ $ git clone git://http://anonscm.debian.org/git/debian-live/live-config.git
 
 }code
 
@@ -173,5 +173,5 @@ code{
 3~ Dos 'instantaneos'
 
 You can let live-build automatically use the latest snapshots of live-boot
-and live-config by configuring the package repository on live-systems.org as
+and live-config by configuring the package repository on debian-live.alioth.debian.org as
 a third-party repository in your live-build configuration directory.

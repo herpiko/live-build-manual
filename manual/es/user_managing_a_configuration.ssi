@@ -91,7 +91,7 @@ Git
 Utilizar la opción #{lb config --config}# para clonar un repositorio Git que
 contenga una configuración de un sistema en vivo. Si se desea basar la
 configuración en una mantenida por el ${project}, visitar el repositorio en
-http://live-systems.org/gitweb/ con el nombre #{live-images}# bajo el título
+http://http://anonscm.debian.org/cgit/debian-live/ con el nombre #{live-images}# bajo el título
 #{Packages}#. Este repositorio contiene las configuraciones que se utilizan
 para las {imágenes prefabricadas}#downloading-prebuilt-images
 
@@ -101,7 +101,7 @@ Por ejemplo, para construir una imagen standard, utilizar el repositorio
 code{
 
  $ mkdir live-images && cd live-images
- $ lb config --config git://live-systems.org/git/live-images.git
+ $ lb config --config git://http://anonscm.debian.org/git/debian-live/live-images.git
  $ cd images/standard
 
 }code
@@ -116,13 +116,13 @@ Git, añadiendo lo siguiente al fichero #{${HOME}/.gitconfig}#:
 
 code{
 
- [url "git://live-systems.org/git/"]
+ [url "git://http://anonscm.debian.org/git/debian-live/"]
          insteadOf = lso:
 
 }code
 
 Esto permite utilizar #{lso:}# en cualquier lugar en que se tenga que
-especificar la dirección de un repositorio git de #{live-systems.org}#. Si
+especificar la dirección de un repositorio git de #{debian-live.alioth.debian.org}#. Si
 se omite el sufijo #{.git}#, comenzar una nueva imagen con esta
 configuración es tan fácil como:
 

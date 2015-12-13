@@ -70,12 +70,12 @@ built using our {live-images git repository}#clone-configuration-via-git and
 official stable releases are published at
 https://www.debian.org/CD/live/. In addition, older and upcoming releases,
 and unofficial images containing non-free firmware and drivers are available
-at http://live-systems.org/cdimage/release/.
+at http://debian-live.alioth.debian.org/cdimage/release/.
 
 2~using-web-builder Using the web live image builder
 
 As a service to the community, we run a web-based live image builder service
-at http://live-systems.org/build/. This site is maintained on a best effort
+at http://debian-live.alioth.debian.org/build/. This site is maintained on a best effort
 basis. That is, although we strive to keep it up-to-date and operational at
 all times, and do issue notices for significant operational outages, we
 cannot guarantee 100% availability or fast image building, and the service
@@ -576,7 +576,7 @@ contain the filesystem.
 3~ Getting the webboot files
 
 As usual, you can build the images yourself or use the prebuilt files, which
-are available on the project's homepage at http://live-systems.org/. Using
+are available on the project's homepage at http://debian-live.alioth.debian.org/. Using
 prebuilt images would be handy for doing initial testing until one can fine
 tune their own needs. If you have built a live image you will find the files
 needed for webbooting in the build directory under #{binary/live/}#. The

@@ -91,7 +91,7 @@ Git
 Użyj opcji #{lb config --config}# aby sklonować repozytorium Git, który
 zawiera konfigurację systemu live. Jeśli chcesz oprzeć swoją konfigurację na
 jednej dostarczanej przez ${project}, odwiedź
-http://live-systems.org/gitweb/ i szukaj repozytorium o nazwie
+http://http://anonscm.debian.org/cgit/debian-live/ i szukaj repozytorium o nazwie
 #{live-images}# (obrazy live) w kategorii #{Packages}# (pakiety). To
 repozytorium zawiera konfiguracje dla {prekompilowanych
 obrazów}#downloading-prebuilt-images systemów live.
@@ -102,7 +102,7 @@ as follows:
 code{
 
  $ mkdir live-images && cd live-images
- $ lb config --config git://live-systems.org/git/live-images.git
+ $ lb config --config git://http://anonscm.debian.org/git/debian-live/live-images.git
  $ cd images/standard
 
 }code
@@ -117,13 +117,13 @@ następujących opcji do #{${HOME}/.gitconfig}#:
 
 code{
 
- [url "git://live-systems.org/git/"]
+ [url "git://http://anonscm.debian.org/git/debian-live/"]
          insteadOf = lso:
 
 }code
 
 Dzięki temu można skorzystać z #{lso:}# wszędzie, gdzie trzeba podać adres
-repozytorium git #{live-systems.org}#. Jeśli również opuścisz opcjonalny
+repozytorium git #{debian-live.alioth.debian.org}#. Jeśli również opuścisz opcjonalny
 przyrostek #{.git}#, rozpoczynając nowy obraz przy użyciu tej konfiguracji
 jest to tak proste:
 

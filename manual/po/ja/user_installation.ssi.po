@@ -300,8 +300,8 @@ msgstr ""
 #. type: Plain text
 #: en/user_installation.ssi:50
 #, no-wrap
-msgid " $ git clone git://live-systems.org/git/live-build.git\n"
-msgstr " $ git clone git://live-systems.org/git/live-build.git\n"
+msgid " $ git clone git://http://anonscm.debian.org/git/debian-live/live-build.git\n"
+msgstr " $ git clone git://http://anonscm.debian.org/git/debian-live/live-build.git\n"
 
 #. type: Plain text
 #: en/user_installation.ssi:54
@@ -369,11 +369,11 @@ msgstr "3~ 「スナップショット」から"
 msgid ""
 "If you do not wish to build or install live-build from source, you can use "
 "snapshots. These are built automatically from the latest version in Git and "
-"are available on http://live-systems.org/debian/."
+"are available on http://debian-live.alioth.debian.org/debian/."
 msgstr ""
 "live-build をソースからビルドあるいはインストールしたくない場合、スナップ"
 "ショットを利用できます。スナップショットは Git の最新版から自動的にビルドさ"
-"れ、http://live-systems.org/debian/ から利用できるようになっています。"
+"れ、http://debian-live.alioth.debian.org/debian/ から利用できるようになっています。"
 
 #. type: Plain text
 #: en/user_installation.ssi:92
@@ -413,11 +413,11 @@ msgstr "_* live-boot 及び live-config のソースの取得"
 #: en/user_installation.ssi:109
 #, no-wrap
 msgid ""
-" $ git clone git://live-systems.org/git/live-boot.git\n"
-" $ git clone git://live-systems.org/git/live-config.git\n"
+" $ git clone git://http://anonscm.debian.org/git/debian-live/live-boot.git\n"
+" $ git clone git://http://anonscm.debian.org/git/debian-live/live-config.git\n"
 msgstr ""
-" $ git clone git://live-systems.org/git/live-boot.git\n"
-" $ git clone git://live-systems.org/git/live-config.git\n"
+" $ git clone git://http://anonscm.debian.org/git/debian-live/live-boot.git\n"
+" $ git clone git://http://anonscm.debian.org/git/debian-live/live-config.git\n"
 
 #. type: Plain text
 #: en/user_installation.ssi:113
@@ -527,9 +527,9 @@ msgstr ""
 #: en/user_installation.ssi:142
 msgid ""
 "You can let live-build automatically use the latest snapshots of live-boot "
-"and live-config by configuring the package repository on live-systems.org as "
+"and live-config by configuring the package repository on debian-live.alioth.debian.org as "
 "a third-party repository in your live-build configuration directory."
 msgstr ""
-"live-build の設定ディレクトリで live-systems.org のパッケージリポジトリをサー"
+"live-build の設定ディレクトリで debian-live.alioth.debian.org のパッケージリポジトリをサー"
 "ドパーティリポジトリとして設定することで、live-build が自動的に live-boot と "
 "live-config の最新のスナップショットを利用するようにできます。"

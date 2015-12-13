@@ -307,8 +307,8 @@ msgstr ""
 #. type: Plain text
 #: en/user_installation.ssi:50
 #, no-wrap
-msgid " $ git clone git://live-systems.org/git/live-build.git\n"
-msgstr " $ git clone git://live-systems.org/git/live-build.git\n"
+msgid " $ git clone git://http://anonscm.debian.org/git/debian-live/live-build.git\n"
+msgstr " $ git clone git://http://anonscm.debian.org/git/debian-live/live-build.git\n"
 
 #. type: Plain text
 #: en/user_installation.ssi:54
@@ -379,11 +379,11 @@ msgstr "3~ Ze zrzutów deweloperskich"
 msgid ""
 "If you do not wish to build or install live-build from source, you can use "
 "snapshots. These are built automatically from the latest version in Git and "
-"are available on http://live-systems.org/debian/."
+"are available on http://debian-live.alioth.debian.org/debian/."
 msgstr ""
 "Jeśli nie chcesz, kompilować i zainstalować live-build ze źródła, możesz "
 "użyć zrzutów deweloperskich. Są to automatycznie zbudowane paczki z "
-"najnowszej wersji Git i są one dostępne na http://live-systems.org/debian/."
+"najnowszej wersji Git i są one dostępne na http://debian-live.alioth.debian.org/debian/."
 
 #. type: Plain text
 #: en/user_installation.ssi:92
@@ -424,11 +424,11 @@ msgstr "_* Sklonuj źródła live-boot i live-config"
 #: en/user_installation.ssi:109
 #, no-wrap
 msgid ""
-" $ git clone git://live-systems.org/git/live-boot.git\n"
-" $ git clone git://live-systems.org/git/live-config.git\n"
+" $ git clone git://http://anonscm.debian.org/git/debian-live/live-boot.git\n"
+" $ git clone git://http://anonscm.debian.org/git/debian-live/live-config.git\n"
 msgstr ""
-" $ git clone git://live-systems.org/git/live-boot.git\n"
-" $ git clone git://live-systems.org/git/live-config.git\n"
+" $ git clone git://http://anonscm.debian.org/git/debian-live/live-boot.git\n"
+" $ git clone git://http://anonscm.debian.org/git/debian-live/live-config.git\n"
 
 #. type: Plain text
 #: en/user_installation.ssi:113
@@ -542,10 +542,10 @@ msgstr ""
 #: en/user_installation.ssi:142
 msgid ""
 "You can let live-build automatically use the latest snapshots of live-boot "
-"and live-config by configuring the package repository on live-systems.org as "
+"and live-config by configuring the package repository on debian-live.alioth.debian.org as "
 "a third-party repository in your live-build configuration directory."
 msgstr ""
 "Możesz pozwolić live-build automatycznie skorzystać z najnowszych zrzutów "
 "deweloperskich live-boot i live-live-config przez skonfigurowanie "
-"repozytorium pakietu live-systems.org jako repozytorium innych firm w "
+"repozytorium pakietu debian-live.alioth.debian.org jako repozytorium innych firm w "
 "katalogu konfiguracyjnym live-build."

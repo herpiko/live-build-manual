@@ -80,12 +80,12 @@ git live-images}#clone-configuration-via-git et les versions officielles
 stables sont publiées sur https://www.debian.org/CD/live/. En outre, les
 versions plus anciennes et les futures, et des images non officielles
 contenant micrologiciels et pilotes non libres sont disponibles sur
-http://live-systems.org/cdimage/release/.
+http://debian-live.alioth.debian.org/cdimage/release/.
 
 2~using-web-builder Utiliser le constructeur web d'images live
 
 En tant que service à la communauté, nous gérons un service de construction
-d'images web sur http://live-systems.org/build/. Ce site est maintenu sur la
+d'images web sur http://debian-live.alioth.debian.org/build/. Ce site est maintenu sur la
 base du meilleur effort. Autrement dit, même si nous nous efforçons de le
 maintenir à jour et opérationnel à tout moment, et de publier des avis
 d'importantes interruptions du service, nous ne pouvons pas garantir une
@@ -619,7 +619,7 @@ fichiers.
 
 Comme d'habitude, vous pouvez construire les images vous-même ou utiliser
 les fichiers précompilés, qui sont disponibles sur le site du projet sur
-http://live-systems.org/. L'utilisation des images précompilées serait
+http://debian-live.alioth.debian.org/. L'utilisation des images précompilées serait
 pratique pour faire l'essai initial jusqu'à ce que l'on peut affiner leurs
 propres besoins. Si vous avez construit une image live, vous trouverez les
 fichiers nécessaires pour webbooting dans le répertoire de construction sous

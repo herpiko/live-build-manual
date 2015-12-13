@@ -11,7 +11,7 @@ de bons rapports de bogues.
 Pour les impatients:
 
 _* Commencez toujours par vérifier les mises à jour du statut de l'image sur
-notre page d'accueil http://live-systems.org/ pour voir les problèmes
+notre page d'accueil http://debian-live.alioth.debian.org/ pour voir les problèmes
 connus.
 
 _*  Avant de présenter un rapport de bogue, toujours essayer de reproduire
@@ -37,7 +37,7 @@ Si cela vous pose trop de difficulté, ne construisez pas un système basé sur
 utilise toujours la version *{stable}* par défaut.
 
 Les problèmes connus sont énumérés dans la section «statut» sur notre page
-http://live-systems.org/.
+http://debian-live.alioth.debian.org/.
 
 Le sujet de ce manuel n'est pas de vous former à identifier et corriger
 correctement les problèmes dans les paquets des distributions de

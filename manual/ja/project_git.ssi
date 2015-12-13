@@ -2,13 +2,13 @@
 
 1~git-repositories Gitリポジトリ
 
-${project}の利用可能な全リポジトリ一覧は http://live-systems.org/gitweb/ にあります。プロジェクトの git
-URL は: #{プロトコル://live-systems.org/git/リポジトリ}# という形式になっています。したがって、live-manual
+${project}の利用可能な全リポジトリ一覧は http://http://anonscm.debian.org/cgit/debian-live/ にあります。プロジェクトの git
+URL は: #{プロトコル://http://anonscm.debian.org/git/debian-live/リポジトリ}# という形式になっています。したがって、live-manual
 を読み込み専用で複製するには
 
 code{
 
- $ git clone git://live-systems.org/git/live-manual.git
+ $ git clone git://http://anonscm.debian.org/git/debian-live/live-manual.git
 
 }code
 
@@ -16,7 +16,7 @@ code{
 
 code{
 
- $ git clone https://live-systems.org/git/live-manual.git
+ $ git clone https://http://anonscm.debian.org/git/debian-live/live-manual.git
 
 }code
 
@@ -24,17 +24,17 @@ code{
 
 code{
 
- $ git clone http://live-systems.org/git/live-manual.git
+ $ git clone http://http://anonscm.debian.org/git/debian-live/live-manual.git
 
 }code
 
-のどれかを実行します。書き込み権限のある複製には #{git@live-systems.org:/リポジトリ}#という形式のアドレスを使います。
+のどれかを実行します。書き込み権限のある複製には #{ssh://git.debian.org/git/debian-live/リポジトリ}#という形式のアドレスを使います。
 
 なので、繰り返しますが live-manual をssh経由で複製するには
 
 code{
 
- $ git clone git@live-systems.org:live-manual.git
+ $ git clone ssh://git.debian.org/git/debian-live/live-manual.git
 
 }code
 
@@ -64,7 +64,7 @@ Live システムのリポジトリを複数複製してすぐに、最新コー
 
 code{
 
- $  mr bootstrap http://live-systems.org/other/mr/mrconfig
+ $  mr bootstrap http://debian-live.alioth.debian.org/other/mr/mrconfig
 
 }code
 

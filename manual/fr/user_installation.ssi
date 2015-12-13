@@ -52,7 +52,7 @@ Git. Dans les systèmes basés sur Debian, il est fourni par le paquet
 
 code{
 
- $ git clone git://live-systems.org/git/live-build.git
+ $ git clone git://http://anonscm.debian.org/git/debian-live/live-build.git
 
 }code
 
@@ -97,7 +97,7 @@ code{
 Si vous ne souhaitez pas créer ou installer live-build à partir des sources,
 vous pouvez utiliser des instantanés. Ils sont construits automatiquement à
 partir de la dernière version du dépôt Git et sont disponibles sur
-http://live-systems.org/debian/.
+http://debian-live.alioth.debian.org/debian/.
 
 2~ Installation de live-boot et live-config
 
@@ -118,8 +118,8 @@ _* Examiner les sources de live-boot et live-config
 
 code{
 
- $ git clone git://live-systems.org/git/live-boot.git
- $ git clone git://live-systems.org/git/live-config.git
+ $ git clone git://http://anonscm.debian.org/git/debian-live/live-boot.git
+ $ git clone git://http://anonscm.debian.org/git/debian-live/live-config.git
 
 }code
 
@@ -179,4 +179,4 @@ code{
 
 Vous pouvez laisser live-build utiliser automatiquement les derniers
 instantanés de live-boot et live-config en configurant le dépôt tiers
-live-systems.org dans votre répertoire de configuration de live-build.
+debian-live.alioth.debian.org dans votre répertoire de configuration de live-build.

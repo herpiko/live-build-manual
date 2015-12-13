@@ -214,9 +214,9 @@ msgstr "せっかちな人向け:"
 #: en/project_bugs.ssi:10
 msgid ""
 "_* Always check first the image status updates on our homepage at http://"
-"live-systems.org/ for known issues."
+"debian-live.alioth.debian.org/ for known issues."
 msgstr ""
-"_* 常にまず http://live-systems.org/ にある私達のホームページにあるイメージの"
+"_* 常にまず http://debian-live.alioth.debian.org/ にある私達のホームページにあるイメージの"
 "更新状況により既知の問題を確認してください。"
 
 #. type: Plain text
@@ -279,9 +279,9 @@ msgstr ""
 #: en/project_bugs.ssi:24
 msgid ""
 "Currently known issues are listed under the section 'status' on our homepage "
-"at http://live-systems.org/."
+"at http://debian-live.alioth.debian.org/."
 msgstr ""
-"現在わかっている問題は http://live-systems.org/ にある私達のホームページの"
+"現在わかっている問題は http://debian-live.alioth.debian.org/ にある私達のホームページの"
 "「status」に一覧があります。"
 
 #. type: Plain text

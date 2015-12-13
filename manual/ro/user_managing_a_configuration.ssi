@@ -84,7 +84,7 @@ a log of the build will be written by #{auto/build}# in #{build.log}#.
 Use the #{lb config --config}# option to clone a Git repository that
 contains a live system configuration. If you would like to base your
 configuration on one maintained by the ${project}, look at
-http://live-systems.org/gitweb/ for the repository named #{live-images}# in
+http://http://anonscm.debian.org/cgit/debian-live/ for the repository named #{live-images}# in
 the category #{Packages}#. This repository contains the configurations for
 the live systems {prebuilt images}#downloading-prebuilt-images.
 
@@ -94,7 +94,7 @@ as follows:
 code{
 
  $ mkdir live-images && cd live-images
- $ lb config --config git://live-systems.org/git/live-images.git
+ $ lb config --config git://http://anonscm.debian.org/git/debian-live/live-images.git
  $ cd images/standard
 
 }code
@@ -108,13 +108,13 @@ following to your #{${HOME}/.gitconfig}#:
 
 code{
 
- [url "git://live-systems.org/git/"]
+ [url "git://http://anonscm.debian.org/git/debian-live/"]
          insteadOf = lso:
 
 }code
 
 This enables you to use #{lso:}# anywhere you need to specify the address of
-a #{live-systems.org}# git repository. If you also drop the optional
+a #{debian-live.alioth.debian.org}# git repository. If you also drop the optional
 #{.git}# suffix, starting a new image using this configuration is as easy
 as:
 

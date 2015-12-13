@@ -220,10 +220,10 @@ msgstr "Dla niecierpliwych:"
 #: en/project_bugs.ssi:10
 msgid ""
 "_* Always check first the image status updates on our homepage at http://"
-"live-systems.org/ for known issues."
+"debian-live.alioth.debian.org/ for known issues."
 msgstr ""
 "_* Zawsze należy sprawdzić najpierw aktualizacje statusu obrazu na naszej "
-"stronie internetowej http://live-systems.org/, w poszukiwaniu znanych "
+"stronie internetowej http://debian-live.alioth.debian.org/, w poszukiwaniu znanych "
 "problemów."
 
 #. type: Plain text
@@ -288,10 +288,10 @@ msgstr ""
 #: en/project_bugs.ssi:24
 msgid ""
 "Currently known issues are listed under the section 'status' on our homepage "
-"at http://live-systems.org/."
+"at http://debian-live.alioth.debian.org/."
 msgstr ""
 "Obecnie znane problemy wymienione są w ramach sekcji \"status\" na naszej "
-"stronie internetowej w http://live-systems.org/."
+"stronie internetowej w http://debian-live.alioth.debian.org/."
 
 #. type: Plain text
 #: en/project_bugs.ssi:26

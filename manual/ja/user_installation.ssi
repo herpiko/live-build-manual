@@ -48,7 +48,7 @@ live-build はGitバージョン管理システムを使って開発されてい
 
 code{
 
- $ git clone git://live-systems.org/git/live-build.git
+ $ git clone git://http://anonscm.debian.org/git/debian-live/live-build.git
 
 }code
 
@@ -89,7 +89,7 @@ code{
 3~ 「スナップショット」から
 
 live-build をソースからビルドあるいはインストールしたくない場合、スナップショットを利用できます。スナップショットは Git
-の最新版から自動的にビルドされ、http://live-systems.org/debian/ から利用できるようになっています。
+の最新版から自動的にビルドされ、http://debian-live.alioth.debian.org/debian/ から利用できるようになっています。
 
 2~ live-boot と live-config のインストール
 
@@ -108,8 +108,8 @@ _* live-boot 及び live-config のソースの取得
 
 code{
 
- $ git clone git://live-systems.org/git/live-boot.git
- $ git clone git://live-systems.org/git/live-config.git
+ $ git clone git://http://anonscm.debian.org/git/debian-live/live-boot.git
+ $ git clone git://http://anonscm.debian.org/git/debian-live/live-config.git
 
 }code
 
@@ -154,6 +154,6 @@ code{
 
 3~ 「スナップショット」から
 
-live-build の設定ディレクトリで live-systems.org
+live-build の設定ディレクトリで debian-live.alioth.debian.org
 のパッケージリポジトリをサードパーティリポジトリとして設定することで、live-build が自動的に live-boot と live-config
 の最新のスナップショットを利用するようにできます。

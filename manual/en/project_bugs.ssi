@@ -6,7 +6,7 @@ Live systems are far from being perfect, but we want to make it as close as poss
 
 For the impatient:
 
-_* Always check first the image status updates on our homepage at http://live-systems.org/ for known issues.
+_* Always check first the image status updates on our homepage at http://debian-live.alioth.debian.org/ for known issues.
 
 _* Before submitting a bug report always try to reproduce the bug with the *{most recent versions}* of the branch of live-build, live-boot, live-config and live-tools that you're using (like the newest 4.x version of live-build if you're using live-build 4).
 
@@ -20,7 +20,7 @@ Since Debian *{testing}* and Debian *{unstable}* distributions are moving target
 
 If this causes too much difficulty for you, do not build a system based on *{testing}* or *{unstable}*, but rather, use *{stable}*. live-build always defaults to the *{stable}* release.
 
-Currently known issues are listed under the section 'status' on our homepage at http://live-systems.org/.
+Currently known issues are listed under the section 'status' on our homepage at http://debian-live.alioth.debian.org/.
 
 It is out of the scope of this manual to train you to correctly identify and fix problems in packages of the development distributions, however, there are two things you can always try: If a build fails when the target distribution is *{testing}*, try *{unstable}*. If *{unstable}* does not work either, revert to *{testing}* and pin the newer version of the failing package from *{unstable}* (see {APT pinning}#apt-pinning for details).
 

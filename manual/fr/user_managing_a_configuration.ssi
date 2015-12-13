@@ -92,7 +92,7 @@ la construction est écrit par #{auto/build}# dans #{build.log}#.
 Utilisez l'option #{lb config --config}# pour cloner un dépôt Git qui
 contient une configuration d'un système live. Si vous souhaitez baser votre
 configuration sur une autre maintenue par le ${project}, allez voir le dépôt
-sur http://live-systems.org/gitweb avec le nom #{live-images}# sous le titre
+sur http://debian-live.alioth.debian.org/gitweb avec le nom #{live-images}# sous le titre
 #{Packages}#. Ce dépôt contient les configurations pour les {images
 précompilées}#downloading-prebuilt-images
 
@@ -102,7 +102,7 @@ Par exemple, pour construire une image standard, utilisez le dépôt
 code{
 
  $ mkdir live-images && cd live-images
- $ lb config --config git://live-systems.org/git/live-images.git
+ $ lb config --config git://http://anonscm.debian.org/git/debian-live/live-images.git
  $ cd images/standard
 
 }code
@@ -117,13 +117,13 @@ en ajoutant la ligne suivante à votre #{${HOME}/.gitconfig}#:
 
 code{
 
- [url "git://live-systems.org/git/"]
+ [url "git://http://anonscm.debian.org/git/debian-live/"]
          insteadOf = lso:
 
 }code
 
 Cela vous permet d'utiliser #{lso:}# quand vous voulez indiquer l'adresse
-d'un dépôt #{live-systems.org}#. Si vous supprimez le suffixe optionnel
+d'un dépôt #{debian-live.alioth.debian.org}#. Si vous supprimez le suffixe optionnel
 #{.git}#, commencer une nouvelle image en utilisant cette configuration est
 aussi simple que:
 

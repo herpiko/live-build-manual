@@ -65,7 +65,7 @@ For example, #{config/archives/live.list.chroot}# allows you to install packages
 
 code{
 
- deb http://live-systems.org/ sid-snapshots main contrib non-free
+ deb http://debian-live.alioth.debian.org/ sid-snapshots main contrib non-free
 
 }code
 

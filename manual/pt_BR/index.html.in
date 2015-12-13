@@ -48,20 +48,20 @@ href="pdf/live-manual.landscape.pt_BR.letter.pdf">US paisagem</a></li>
 
 	<p>
 		O fonte desse manual está diponível em um repositório <a
-href="http://git-scm.com/">Git</a> em live-systems.org.
+href="http://git-scm.com/">Git</a> em debian-live.alioth.debian.org.
 	</p>
 
 	<ul>
 		<li>Navegue: <a
-href="http://live-systems.org/gitweb/?p=live-manual.git"><small><tt>http://live-systems.org/gitweb/?p=live-manual.git</tt></small></a></li>
+href="http://http://anonscm.debian.org/cgit/debian-live/live-manual.git"><small><tt>http://http://anonscm.debian.org/cgit/debian-live/live-manual.git</tt></small></a></li>
 		<li>Git: <a
-href="git://live-systems.org/git/live-manual.git"><small><tt>git://live-systems.org/git/live-manual.git</tt></small></a></li>
+href="git://http://anonscm.debian.org/git/debian-live/live-manual.git"><small><tt>git://http://anonscm.debian.org/git/debian-live/live-manual.git</tt></small></a></li>
 	</ul>
 
 	<p>
-		<a href="http://live-systems.org/">Projeto Live Systems</a> &lt;<a
+		<a href="http://debian-live.alioth.debian.org/">Projeto Live Systems</a> &lt;<a
 href="mailto:debian-live@lists.debian.org">debian-live@lists.debian.org</a>&gt;
-- <a href="http://live-systems.org/project/legal/">Aviso legal</a>
+- <a href="http://debian-live.alioth.debian.org/project/legal/">Aviso legal</a>
 	</p>
 </body>
 

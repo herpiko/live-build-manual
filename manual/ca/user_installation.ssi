@@ -51,7 +51,7 @@ comprovar l'últim codi, executar:
 
 code{
 
- $ git clone git://live-systems.org/git/live-build.git
+ $ git clone git://http://anonscm.debian.org/git/debian-live/live-build.git
 
 }code
 
@@ -97,7 +97,7 @@ code{
 Si no es desitja construir o instal·lar live-build a partir de les fonts, es
 pot utilitzar les instantànies. Aquestes es construeixen automàticament a
 partir de l'última versió del Git, i estan disponibles a
-http://live-systems.org/debian/.
+http://debian-live.alioth.debian.org/debian/.
 
 2~ Instal.lació de live-boot i live-config
 
@@ -118,8 +118,8 @@ _* Clonar les fonts de live-boot i live-config
 
 code{
 
- $ git clone git://live-systems.org/git/live-boot.git
- $ git clone git://live-systems.org/git/live-config.git
+ $ git clone git://http://anonscm.debian.org/git/debian-live/live-boot.git
+ $ git clone git://http://anonscm.debian.org/git/debian-live/live-config.git
 
 }code
 
@@ -178,5 +178,5 @@ code{
 3~ A partir d'instantànies
 
 Es pot deixar que live-build utilitzi les darreres instantànies de live-boot
-i live-config configurant el repositori de tercers live-systems.org en el
+i live-config configurant el repositori de tercers debian-live.alioth.debian.org en el
 directori de configuració de live-build.

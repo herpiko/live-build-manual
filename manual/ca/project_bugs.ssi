@@ -11,7 +11,7 @@ d'errors.
 Per als impacients
 
 _* Sempre consultar primer les actualitzacions del estat de la imatge a la
-nostra pàgina web a http://live-systems.org/ per a veure els problemes
+nostra pàgina web a http://debian-live.alioth.debian.org/ per a veure els problemes
 coneguts.
 
 _* Abans d'enviar un informe d'errors, sempre tractar de reproduir l'error
@@ -37,7 +37,7 @@ Si això és massa difícil, no construir un sistema basat en *{testing}* o
 construeix la versió *{stable}* per defecte.
 
 El problemes coneguts es mostren sota la secció 'status' a la nostra pàgina
-web a http://live-systems.org/.
+web a http://debian-live.alioth.debian.org/.
 
 Està fora de l'abast d'aquest manual ensenyar a identificar correctament i
 solucionar els problemes dels paquets de les distribucions en

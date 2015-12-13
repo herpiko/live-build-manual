@@ -382,7 +382,7 @@ msgstr ""
 "Utilisez l'option #{lb config --config}# pour cloner un dépôt Git qui "
 "contient une configuration d'un système live. Si vous souhaitez baser votre "
 "configuration sur une autre maintenue par le ${project}, allez voir le dépôt "
-"sur http://live-systems.org/gitweb avec le nom #{live-images}# sous le titre "
+"sur http://debian-live.alioth.debian.org/gitweb avec le nom #{live-images}# sous le titre "
 "#{Packages}#. Ce dépôt contient les configurations pour les {images "
 "précompilées}#downloading-prebuilt-images"
 
@@ -400,11 +400,11 @@ msgstr ""
 #, no-wrap
 msgid ""
 " $ mkdir live-images && cd live-images\n"
-" $ lb config --config git://live-systems.org/git/live-images.git\n"
+" $ lb config --config git://http://anonscm.debian.org/git/debian-live/live-images.git\n"
 " $ cd images/standard\n"
 msgstr ""
 " $ mkdir live-images && cd live-images\n"
-" $ lb config --config git://live-systems.org/git/live-images.git\n"
+" $ lb config --config git://http://anonscm.debian.org/git/debian-live/live-images.git\n"
 " $ cd images/standard\n"
 
 #. type: Plain text
@@ -432,21 +432,21 @@ msgstr ""
 #: en/user_managing_a_configuration.ssi:70
 #, no-wrap
 msgid ""
-" [url \"git://live-systems.org/git/\"]\n"
+" [url \"git://http://anonscm.debian.org/git/debian-live/\"]\n"
 "         insteadOf = lso:\n"
 msgstr ""
-" [url \"git://live-systems.org/git/\"]\n"
+" [url \"git://http://anonscm.debian.org/git/debian-live/\"]\n"
 "         insteadOf = lso:\n"
 
 #. type: Plain text
 #: en/user_managing_a_configuration.ssi:74
 msgid ""
 "This enables you to use #{lso:}# anywhere you need to specify the address of "
-"a #{live-systems.org}# git repository. If you also drop the optional #{.git}"
+"a #{debian-live.alioth.debian.org}# git repository. If you also drop the optional #{.git}"
 "# suffix, starting a new image using this configuration is as easy as:"
 msgstr ""
 "Cela vous permet d'utiliser #{lso:}# quand vous voulez indiquer l'adresse "
-"d'un dépôt #{live-systems.org}#. Si vous supprimez le suffixe optionnel #{."
+"d'un dépôt #{debian-live.alioth.debian.org}#. Si vous supprimez le suffixe optionnel #{."
 "git}#, commencer une nouvelle image en utilisant cette configuration est "
 "aussi simple que:"
 

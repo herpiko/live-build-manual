@@ -300,8 +300,8 @@ msgstr ""
 #. type: Plain text
 #: en/user_installation.ssi:50
 #, no-wrap
-msgid " $ git clone git://live-systems.org/git/live-build.git\n"
-msgstr " $ git clone git://live-systems.org/git/live-build.git\n"
+msgid " $ git clone git://http://anonscm.debian.org/git/debian-live/live-build.git\n"
+msgstr " $ git clone git://http://anonscm.debian.org/git/debian-live/live-build.git\n"
 
 #. type: Plain text
 #: en/user_installation.ssi:54
@@ -370,7 +370,7 @@ msgstr "3~ A partir d'instantànies"
 msgid ""
 "If you do not wish to build or install live-build from source, you can use "
 "snapshots. These are built automatically from the latest version in Git and "
-"are available on http://live-systems.org/debian/."
+"are available on http://debian-live.alioth.debian.org/debian/."
 msgstr ""
 "Si no es desitja construir o instal·lar live-build a partir de les fonts, es "
 "pot utilitzar les instantànies. Aquestes es construeixen automàticament a "
@@ -415,11 +415,11 @@ msgstr "_* Clonar les fonts de live-boot i live-config"
 #: en/user_installation.ssi:109
 #, no-wrap
 msgid ""
-" $ git clone git://live-systems.org/git/live-boot.git\n"
-" $ git clone git://live-systems.org/git/live-config.git\n"
+" $ git clone git://http://anonscm.debian.org/git/debian-live/live-boot.git\n"
+" $ git clone git://http://anonscm.debian.org/git/debian-live/live-config.git\n"
 msgstr ""
-" $ git clone git://live-systems.org/git/live-boot.git\n"
-" $ git clone git://live-systems.org/git/live-config.git\n"
+" $ git clone git://http://anonscm.debian.org/git/debian-live/live-boot.git\n"
+" $ git clone git://http://anonscm.debian.org/git/debian-live/live-config.git\n"
 
 #. type: Plain text
 #: en/user_installation.ssi:113
@@ -531,9 +531,9 @@ msgstr ""
 #: en/user_installation.ssi:142
 msgid ""
 "You can let live-build automatically use the latest snapshots of live-boot "
-"and live-config by configuring the package repository on live-systems.org as "
+"and live-config by configuring the package repository on debian-live.alioth.debian.org as "
 "a third-party repository in your live-build configuration directory."
 msgstr ""
 "Es pot deixar que live-build utilitzi les darreres instantànies de live-boot "
-"i live-config configurant el repositori de tercers live-systems.org en el "
+"i live-config configurant el repositori de tercers debian-live.alioth.debian.org en el "
 "directori de configuració de live-build."

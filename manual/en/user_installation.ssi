@@ -46,7 +46,7 @@ live-build is developed using the Git version control system. On Debian based sy
 
 code{
 
- $ git clone git://live-systems.org/git/live-build.git
+ $ git clone git://http://anonscm.debian.org/git/debian-live/live-build.git
 
 }code
 
@@ -86,7 +86,7 @@ code{
 
 3~ From 'snapshots'
 
-If you do not wish to build or install live-build from source, you can use snapshots. These are built automatically from the latest version in Git and are available on http://live-systems.org/debian/.
+If you do not wish to build or install live-build from source, you can use snapshots. These are built automatically from the latest version in Git and are available on http://debian-live.alioth.debian.org/debian/.
 
 2~ Installing live-boot and live-config
 
@@ -104,8 +104,8 @@ _* Checkout the live-boot and live-config sources
 
 code{
 
- $ git clone git://live-systems.org/git/live-boot.git
- $ git clone git://live-systems.org/git/live-config.git
+ $ git clone git://http://anonscm.debian.org/git/debian-live/live-boot.git
+ $ git clone git://http://anonscm.debian.org/git/debian-live/live-config.git
 
 }code
 
@@ -139,4 +139,4 @@ code{
 
 3~ From 'snapshots'
 
-You can let live-build automatically use the latest snapshots of live-boot and live-config by configuring the package repository on live-systems.org as a third-party repository in your live-build configuration directory.
+You can let live-build automatically use the latest snapshots of live-boot and live-config by configuring the package repository on debian-live.alioth.debian.org as a third-party repository in your live-build configuration directory.

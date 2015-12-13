@@ -82,12 +82,12 @@ live-images}#clone-configuration-via-git i les versions oficials estables es
 publiquen a https://www.debian.org/CD/live/. A més, les versions antigues i
 les futures, i les imatges no oficials que contenen microprogramari i
 controladors no lliures estan disponibles a
-http://live-systems.org/cdimage/release/.
+http://debian-live.alioth.debian.org/cdimage/release/.
 
 2~using-web-builder Ús del servei de construcció d'imatges en viu web
 
 Com un servei a la comunitat, oferim un servei web capaç de construïr
-imatges en viu a http://live-systems.org/build/. Aquest lloc es mantingut
+imatges en viu a http://debian-live.alioth.debian.org/build/. Aquest lloc es mantingut
 sobre una base del millor esforç. És a dir, encara que ens esforcem per a
 mantenir-lo al dia i que estigui operatiu en tot moment, i de fer anuncis
 d'interrupcions importants del servei, no podem garantir una disponibilitat
@@ -612,7 +612,7 @@ emmagatzemar els fitxers squashfs que contenen el sistema de fitxers.
 
 Com de costum, es pot construir les imatges un mateix o utilitzar els
 fitxers prefabricats, que estan disponibles a la pàgina principal del
-projecte a http://live-systems.org/. Les imatges prefabricades són adients
+projecte a http://debian-live.alioth.debian.org/. Les imatges prefabricades són adients
 per fer proves inicials fins que un pugui afinar les seves pròpies
 necessitats. Si ja s'ha construït una imatge en viu, els fitxers necessaris
 pel webbooting es troben al directori de construcció sota

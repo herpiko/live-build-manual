@@ -398,11 +398,11 @@ msgstr ""
 #, no-wrap
 msgid ""
 " $ mkdir live-images && cd live-images\n"
-" $ lb config --config git://live-systems.org/git/live-images.git\n"
+" $ lb config --config git://http://anonscm.debian.org/git/debian-live/live-images.git\n"
 " $ cd images/standard\n"
 msgstr ""
 " $ mkdir live-images && cd live-images\n"
-" $ lb config --config git://live-systems.org/git/live-images.git\n"
+" $ lb config --config git://http://anonscm.debian.org/git/debian-live/live-images.git\n"
 " $ cd images/standard\n"
 
 #. type: Plain text
@@ -430,17 +430,17 @@ msgstr ""
 #: en/user_managing_a_configuration.ssi:70
 #, no-wrap
 msgid ""
-" [url \"git://live-systems.org/git/\"]\n"
+" [url \"git://http://anonscm.debian.org/git/debian-live/\"]\n"
 "         insteadOf = lso:\n"
 msgstr ""
-" [url \"git://live-systems.org/git/\"]\n"
+" [url \"git://http://anonscm.debian.org/git/debian-live/\"]\n"
 "         insteadOf = lso:\n"
 
 #. type: Plain text
 #: en/user_managing_a_configuration.ssi:74
 msgid ""
 "This enables you to use #{lso:}# anywhere you need to specify the address of "
-"a #{live-systems.org}# git repository. If you also drop the optional #{.git}"
+"a #{debian-live.alioth.debian.org}# git repository. If you also drop the optional #{.git}"
 "# suffix, starting a new image using this configuration is as easy as:"
 msgstr ""
 "Això permet utilitzar #{lso:}# en qualsevol lloc on cal especificar la "

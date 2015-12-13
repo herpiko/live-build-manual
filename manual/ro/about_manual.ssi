@@ -5,7 +5,7 @@
 This manual serves as a single access point to all documentation related to
 the ${project} and in particular applies to the software produced by the
 project for the Debian 9.0 "${stable}" release. An up-to-date version can
-always be found at http://live-systems.org/
+always be found at http://debian-live.alioth.debian.org/
 
 While live-manual is primarily focused on helping you build a live system
 and not on end-user topics, an end user may find some useful information in

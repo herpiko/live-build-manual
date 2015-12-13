@@ -43,9 +43,9 @@ _* 公開コミットキーを取得します:
 code{
 
  $ mkdir -p ~/.ssh/keys
- $ wget http://live-systems.org/other/keys/git@live-systems.org -O ~/.ssh/keys/git@live-systems.org
- $ wget http://live-systems.org/other/keys/git@live-systems.org.pub -O ~/.ssh/keys/git@live-systems.org.pub
- $ chmod 0600 ~/.ssh/keys/git@live-systems.org*
+ $ wget http://debian-live.alioth.debian.org/other/keys/git@debian-live.alioth.debian.org -O ~/.ssh/keys/git@debian-live.alioth.debian.org
+ $ wget http://debian-live.alioth.debian.org/other/keys/git@debian-live.alioth.debian.org.pub -O ~/.ssh/keys/git@debian-live.alioth.debian.org.pub
+ $ chmod 0600 ~/.ssh/keys/git@debian-live.alioth.debian.org*
 
 }code
 
@@ -54,11 +54,11 @@ _* openssh-client の設定に以下を追記します:
 code{
 
  $ cat >> ~/.ssh/config << EOF
- Host live-systems.org
-     Hostname live-systems.org
+ Host debian-live.alioth.debian.org
+     Hostname debian-live.alioth.debian.org
      User git
      IdentitiesOnly yes
-     IdentityFile ~/.ssh/keys/git@live-systems.org
+     IdentityFile ~/.ssh/keys/git@debian-live.alioth.debian.org
  EOF
 
 }code
@@ -67,7 +67,7 @@ _* ssh 経由で live-manual の複製を取得します:
 
 code{
 
- $ git clone git@live-systems.org:/live-manual.git
+ $ git clone ssh://git.debian.org/git/debian-live/live-manual.git
  $ cd live-manual && git checkout debian-next
 
 }code

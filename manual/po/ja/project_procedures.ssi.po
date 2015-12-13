@@ -333,8 +333,8 @@ msgstr " The images are available for download at:\n"
 #. type: Plain text
 #: en/project_procedures.ssi:60
 #, no-wrap
-msgid "   <http://live-systems.org/cdimage/release/current/>\n"
-msgstr "   <http://live-systems.org/cdimage/release/current/>\n"
+msgid "   <http://debian-live.alioth.debian.org/cdimage/release/current/>\n"
+msgstr "   <http://debian-live.alioth.debian.org/cdimage/release/current/>\n"
 
 #. type: Plain text
 #: en/project_procedures.ssi:62
@@ -413,11 +413,11 @@ msgid ""
 " Contact Information\n"
 " -------------------\n"
 " For further information, please visit the Live Systems web pages at\n"
-" <http://live-systems.org/>, or contact the Live Systems team at\n"
+" <http://debian-live.alioth.debian.org/>, or contact the Live Systems team at\n"
 " <debian-live@lists.debian.org>.\n"
 msgstr ""
 " Contact Information\n"
 " -------------------\n"
 " For further information, please visit the Live Systems web pages at\n"
-" <http://live-systems.org/>, or contact the Live Systems team at\n"
+" <http://debian-live.alioth.debian.org/>, or contact the Live Systems team at\n"
 " <debian-live@lists.debian.org>.\n"
