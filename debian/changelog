@@ -1,3 +1,56 @@
+live-manual (2:20151217) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Carlos Zuferri ]
+  * Updating hooks section (live and normal).
+  * Updating translation files from English texts.
+  * Updating Catalan translation, hooks.
+  * Updating Spanish translation, hooks.
+  * Updating French translation, hooks.
+  * Fixing naming error in user_customization-runtime, French translation.
+
+  [ victory ]
+  * Sync Japanese manual.
+
+  [ trebmuh ]
+  * Fixing French translation.
+  * Fixing French translation (2nd take).
+
+  [ Carlos Zuferri ]
+  * Adding procedure to translate the project's man pages in
+    project_contributing.ssi.
+  * Adding note and link to translation of man pages in the main Translation
+    section.
+  * Updating dates in live-manual files.
+  * Updating translation files from English texts.
+  * Removing wrong references to upper directories in project_contributing.ssi.
+  * Updating dates in live-manual files.
+  * Updating translation files of project_contributing.
+  * Updating Catalan translation.
+  * Updating Spanish translation.
+
+  [ trebmuh ]
+  * Update French translation.
+  * Update French strayed missing translation.
+
+  [ victory ]
+  * Update Japanese translation of manual.
+
+  [ Carlos Zuferri ]
+  * Using 'Live Systems Project' as default project in .pot files.
+
+  [ Ben Armstrong ]
+  * Omitting search form from static html; appropriate only for website.
+  * Update addresses to debian.org equivalents.
+
+  [ Iain R. Learmonth ]
+  * Changed source format to native.
+  * debian/control:
+   - Fixed up Vcs-* and Homepage fields.
+
+ -- Iain R. Learmonth <irl@debian.org>  Thu, 17 Dec 2015 20:26:53 +0000
+
 live-manual (1:5.0~a2-1) unstable; urgency=low
 
   [ Carlos Zuferri ]
