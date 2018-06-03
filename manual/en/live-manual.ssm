@@ -59,8 +59,6 @@
 
 << project_procedures.ssi
 
-<< project_git.ssi
-
 :B~ Examples
 
 << examples.ssi
