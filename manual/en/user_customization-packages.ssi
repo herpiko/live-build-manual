@@ -73,7 +73,7 @@ If you add the same line to #{config/archives/live.list.binary}#, the repository
 
 If such files exist, they will be picked up automatically.
 
-You should also put the GPG key used to sign the repository into #{config/archives/your-repository.key.{binary,chroot}}# files.
+You should also put the ASCII-armored GPG key used to sign the repository into #{config/archives/your-repository.key.{binary,chroot}}# files.
 
 Should you need custom APT pinning, such APT preferences snippets can be placed in #{config/archives/your-repository.pref.{binary,chroot}}# files and will be automatically added to your live system's #{/etc/apt/preferences.d/}# directory.
 
