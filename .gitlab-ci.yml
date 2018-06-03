@@ -1,0 +1,19 @@
+image: 'debian:stable'
+
+before_script:
+  - apt-get update
+  - apt-get -y install --no-install-recommends make sisu
+
+pages:
+  stage: deploy
+  script:
+    - make build FORMATS=html
+    - mv build/manual/ public/
+  when: always
+  artifacts:
+    paths:
+      - public
+  only:
+    - master
+  except:
+    - schedules
