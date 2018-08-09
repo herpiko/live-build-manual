@@ -1,3 +1,3 @@
 @make:
-  :home_button_text: { Live manual }http://debian-live.alioth.debian.org/manual; { Live Systems }http://debian-live.alioth.debian.org
+  :home_button_text: { Live manual }https://live-team.pages.debian.net/live-manual/; { Live Systems }http://debian-live.alioth.debian.org
 
