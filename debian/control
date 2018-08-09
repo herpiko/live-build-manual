@@ -16,7 +16,7 @@ Build-Depends-Indep:
 Build-Conflicts:
  locales-all,
 Standards-Version: 3.9.6
-Homepage: http://debian-live.alioth.debian.org/devel/live-manual/
+Homepage: https://live-team.pages.debian.net/live-manual/
 Vcs-Browser: https://salsa.debian.org/live-team/live-manual
 Vcs-Git: https://salsa.debian.org/live-team/live-manual.git
 

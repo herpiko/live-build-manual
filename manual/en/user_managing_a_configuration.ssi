@@ -47,14 +47,14 @@ Now, each time you use #{lb config}#, #{auto/config}# will reset the configurati
 
 2~clone-configuration-via-git Clone a configuration published via Git
 
-Use the #{lb config --config}# option to clone a Git repository that contains a live system configuration. If you would like to base your configuration on one maintained by the ${project}, look at http://http://anonscm.debian.org/cgit/debian-live/ for the repository named #{live-images}# in the category #{Packages}#. This repository contains the configurations for the live systems {prebuilt images}#downloading-prebuilt-images.
+Use the #{lb config --config}# option to clone a Git repository that contains a live system configuration. If you would like to base your configuration on one maintained by the ${project}, look at https://salsa.debian.org/live-team/ for the repository named #{live-images}# in the category #{Packages}#. This repository contains the configurations for the live systems {prebuilt images}#downloading-prebuilt-images.
 
 For example, to build a standard image, use the #{live-images}# repository as follows:
 
 code{
 
  $ mkdir live-images && cd live-images
- $ lb config --config git://http://anonscm.debian.org/git/debian-live/live-images.git
+ $ lb config --config https://salsa.debian.org/live-team/live-images.git
  $ cd images/standard
 
 }code
@@ -65,7 +65,7 @@ You may optionally define a shortcut in your Git configuration by adding the fol
 
 code{
 
- [url "git://http://anonscm.debian.org/git/debian-live/"]
+ [url "https://salsa.debian.org/live-team/"]
          insteadOf = lso:
 
 }code

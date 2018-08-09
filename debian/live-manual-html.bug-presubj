@@ -4,11 +4,11 @@ be a bit outdated.
 Before submitting a bug report against live-manual, please make sure
 that you have checked with the online version:
 
-  http://debian-live.alioth.debian.org/manual/
+  https://live-team.pages.debian.net/live-manual/
 
 Also, please consider fixing things directly by contributing to the
 manual. The git repository is world writable, see:
 
-  http://debian-live.alioth.debian.org/manual/html/meta.html#contributing
+  https://live-team.pages.debian.net/live-manual/html/live-manual/contributing-to-project.en.html
 
 for instructions.

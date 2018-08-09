@@ -46,7 +46,7 @@ live-build is developed using the Git version control system. On Debian based sy
 
 code{
 
- $ git clone git://http://anonscm.debian.org/git/debian-live/live-build.git
+ $ git clone https://salsa.debian.org/live-team/live-build.git
 
 }code
 
@@ -104,8 +104,8 @@ _* Checkout the live-boot and live-config sources
 
 code{
 
- $ git clone git://http://anonscm.debian.org/git/debian-live/live-boot.git
- $ git clone git://http://anonscm.debian.org/git/debian-live/live-config.git
+ $ git clone https://salsa.debian.org/live-team/live-boot.git
+ $ git clone https://salsa.debian.org/live-team/live-config.git
 
 }code
 
