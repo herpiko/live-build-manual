@@ -1,7 +1,7 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: live-manual
 Upstream-Contact: Live Systems Project <debian-live@lists.debian.org>
-Source: http://debian-live.alioth.debian.org/archive/packages/live-manual/
+Source: https://salsa.debian.org/live-team/live-manual
 
 Files: *
 Copyright: 2006-2015 Live Systems Project <debian-live@lists.debian.org>
