@@ -132,7 +132,3 @@ code{
  $ cp ../live-config{_,-sysvinit,-doc}*.deb  config/packages.chroot/
 
 }code
-
-3~ From 'snapshots'
-
-You can let live-build automatically use the latest snapshots of live-boot and live-config by configuring the package repository on debian-live.alioth.debian.org as a third-party repository in your live-build configuration directory.
