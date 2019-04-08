@@ -121,7 +121,7 @@ The first time you boot your live medium, whether CD, DVD, USB key, or PXE boot,
 
 Once you've booted the medium, you are presented with a boot menu. If you just press enter here, the system will boot using the default entry, #{Live}# and default options. For more information about boot options, see the "help" entry in the menu and also the live-boot and live-config man pages found within the live system.
 
-Assuming you've selected #{Live}# and booted a default desktop live image, after the boot messages scroll by, you should be automatically logged into the #{user}# account and see a desktop, ready to use. If you have booted a console-only image, such as a #{standard}# flavour {prebuilt image}#downloading-prebuilt-images, you should be automatically logged in on the console to the #{user}# account and see a shell prompt, ready to use.
+Assuming you've selected #{Live}# and booted a default desktop live image, after the boot messages scroll by, you should be automatically logged into the #{user}# account and see a desktop, ready to use. If you have booted a console-only image, you should be automatically logged in on the console to the #{user}# account and see a shell prompt, ready to use.
 
 2~using-virtual-machine Using a virtual machine for testing
 
