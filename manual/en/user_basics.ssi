@@ -26,7 +26,7 @@ You can use live-build to build the system image from your specifications, set u
 
 2~downloading-prebuilt-images Downloading prebuilt images
 
-While the focus of this manual is developing and building your own live images, you may simply wish to try one of our prebuilt images, either as an introduction to their use or instead of building your own. These images are built using our {live-images git repository}#clone-configuration-via-git and official stable releases are published at https://www.debian.org/CD/live/. In addition, older and upcoming releases, and unofficial images containing non-free firmware and drivers are available at http://debian-live.alioth.debian.org/cdimage/release/.
+While the focus of this manual is developing and building your own live images, you may simply wish to try one of our prebuilt images, either as an introduction to their use or instead of building your own. These images are built using our {live-images git repository}#clone-configuration-via-git and official stable releases are published at https://www.debian.org/CD/live/.
 
 2~using-web-builder Using the web live image builder
 
