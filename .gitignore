@@ -3,4 +3,12 @@ manual/en/*~
 manual/po/*/*~
 manual/po/*/*.mo
 manual/po4a.cfg
-
+manual/ca/
+manual/de/
+manual/es/
+manual/fr/
+manual/it/
+manual/ja/
+manual/pl/
+manual/pt_BR/
+manual/ro/
