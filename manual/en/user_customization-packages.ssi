@@ -210,7 +210,7 @@ When more than one kernel package version is available in your configured archiv
 code{
 
  $ lb config --linux-packages linux-image-3.18.0-trunk
- $ echo "deb http://ftp.debian.org/debian/ experimental main" > config/archives/experimental.list.chroot
+ $ echo "deb http://deb.debian.org/debian/ experimental main" > config/archives/experimental.list.chroot
 
 }code
 
