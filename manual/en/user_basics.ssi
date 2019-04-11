@@ -24,10 +24,6 @@ _* *{Bootloader}*: A small piece of code crafted to boot from the chosen medium,
 
 You can use live-build to build the system image from your specifications, set up a Linux kernel, its initrd, and a bootloader to run them, all in one medium-dependant format (ISO9660 image, disk image, etc.).
 
-2~downloading-prebuilt-images Downloading prebuilt images
-
-While the focus of this manual is developing and building your own live images, you may simply wish to try one of our prebuilt images, either as an introduction to their use or instead of building your own. These images are built using our {live-images git repository}#clone-configuration-via-git and official stable releases are published at https://www.debian.org/CD/live/. In addition, older and upcoming releases, and unofficial images containing non-free firmware and drivers are available at https://cdimage.debian.org/images/unofficial/non-free/images-including-firmware/.
-
 2~building-iso-hybrid First steps: building an ISO hybrid image
 
 Regardless of the image type, you will need to perform the same basic steps to build an image each time. As a first example, create a build directory, change to that directory and then execute the following sequence of live-build commands to create a basic ISO hybrid image containing a default live system without X.org. It is suitable for burning to CD or DVD media, and also to copy onto a USB stick.
