@@ -71,7 +71,7 @@ build: clean
 	#etc.
 
 	@# FIXME: sisu-concordance sisu-pg sisu-sqlite
-
+	$(MAKE) -C $(CURDIR)/manual LANGUAGES="$(filter-out en,$(LANGUAGES))"
 	cd $(CURDIR)/manual; \
 	sisu --configure
 	for LANGUAGE in $(LANGUAGES); \
