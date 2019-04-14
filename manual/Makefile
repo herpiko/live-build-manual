@@ -67,3 +67,5 @@ check:
 	fi
 	
 	@echo " done!"
+
+.PHONY: po4a.cfg
