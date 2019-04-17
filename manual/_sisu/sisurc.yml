@@ -16,7 +16,7 @@
 
 #% presentation/web directory, main path and subdirectories (most subdirectories are created automatically based on markup directory name)
 webserv:
-  url_root:     'http://debian-live.alioth.debian.org' #without dir stub
+  url_root:     'https://live-team.pages.debian.net/live-manual' #without dir stub
   path:          '../build'
 #  images:       '_sisu/image'
 #  man:          'man'
@@ -63,7 +63,7 @@ program_set:
 search:
   sisu:
     flag:            true
-    action:          http://debian-live.alioth.debian.org/manual/git/search.cgi
+    action:          https://live-team.pages.debian.net/live-manual/search.cgi
     db:              manual
     title:           Live Manual Search Form
 
