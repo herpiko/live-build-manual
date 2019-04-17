@@ -47,7 +47,7 @@ The chroot mirror, specified by #{--mirror-chroot}#, defaults to the #{--mirror-
 
 3~ Distribution mirrors used at run time
 
-The #{--mirror-binary*}# options govern the distribution mirrors placed in the binary image. These may be used to install additional packages while running the live system. The defaults employ #{httpredir.debian.org}#, a service that chooses a geographically close mirror based, among other things, on the user's IP family and the availability of the mirrors. This is a suitable choice when you cannot predict which mirror will be best for all of your users. Or you may specify your own values as shown in the example below. An image built from this configuration would only be suitable for users on a network where "#{mirror}#" is reachable.
+The #{--mirror-binary*}# options govern the distribution mirrors placed in the binary image. These may be used to install additional packages while running the live system. The defaults employ #{deb.debian.org}#, a service that chooses a geographically close mirror based, among other things, on the user's IP family and the availability of the mirrors. This is a suitable choice when you cannot predict which mirror will be best for all of your users. Or you may specify your own values as shown in the example below. An image built from this configuration would only be suitable for users on a network where "#{mirror}#" is reachable.
 
 code{
 
@@ -210,7 +210,7 @@ When more than one kernel package version is available in your configured archiv
 code{
 
  $ lb config --linux-packages linux-image-3.18.0-trunk
- $ echo "deb http://ftp.debian.org/debian/ experimental main" > config/archives/experimental.list.chroot
+ $ echo "deb http://deb.debian.org/debian/ experimental main" > config/archives/experimental.list.chroot
 
 }code
 
