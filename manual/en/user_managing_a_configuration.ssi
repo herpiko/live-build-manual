@@ -47,14 +47,14 @@ Now, each time you use #{lb config}#, #{auto/config}# will reset the configurati
 
 2~clone-configuration-via-git Clone a configuration published via Git
 
-Use the #{lb config --config}# option to clone a Git repository that contains a live system configuration. If you would like to base your configuration on one maintained by the ${project}, look at https://salsa.debian.org/live-team/ for the repository named #{live-images}# in the category #{Packages}#. This repository contains the configurations for the live systems {prebuilt images}#downloading-prebuilt-images.
+Use the #{lb config --config}# option to clone a Git repository that contains a live system configuration. If you would like to base your configuration on one maintained by the ${project}, look at https://salsa.debian.org/live-team/ for the repository named #{live-images}# in the category #{Subgroups and projects}#. This repository contains the configurations for the live systems {prebuilt images}#downloading-prebuilt-images.
 
 For example, to build a standard image, use the #{live-images}# repository as follows:
 
 code{
 
  $ mkdir live-images && cd live-images
- $ lb config --config https://salsa.debian.org/live-team/live-images.git
+ $ lb config --config https://salsa.debian.org/live-team/live-images.git::debian
  $ cd images/standard
 
 }code
@@ -70,11 +70,11 @@ code{
 
 }code
 
-This enables you to use #{lso:}# anywhere you need to specify the address of a #{debian-live.alioth.debian.org}# git repository. If you also drop the optional #{.git}# suffix, starting a new image using this configuration is as easy as:
+This enables you to use #{lso:}# anywhere you need to specify the address of a #{salsa.debian.org}# git repository. If you also drop the optional #{.git}# suffix, starting a new image using this configuration is as easy as:
 
 code{
 
- $ lb config --config lso:live-images
+ $ lb config --config lso:live-images::debian
 
 }code
 
