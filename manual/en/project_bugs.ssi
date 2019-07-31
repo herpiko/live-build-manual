@@ -83,7 +83,7 @@ If possible, isolate the failing case to the smallest possible change that break
 
 2~ Use the correct package to report the bug against
 
-If you do not know what component is responsible for the bug or if the bug is a general bug concerning live systems, you can fill a bug against the debian-live pseudo-package.
+In general, you should report build time errors against the live-build package, boot time errors against live-boot, and run time errors against live-config. If you are unsure of which package is appropriate or need more help before submitting a bug report, please report it against the debian-live pseudo-package. We will then take care about it and reassign it where appropriate.
 
 However, we would appreciate it if you try to narrow it down according to where the bug appears.
 
@@ -112,7 +112,5 @@ If a package was successfully installed, but fails while actually running the Li
 2~ Where to report bugs
 
 The ${project} keeps track of all bugs in the Bug Tracking System (BTS). For information on how to use the system, please see https://bugs.debian.org/. You can also submit the bugs by using the #{reportbug}# command from the package with the same name.
-
-In general, you should report build time errors against the live-build package, boot time errors against live-boot, and run time errors against live-config. If you are unsure of which package is appropriate or need more help before submitting a bug report, please report it against the debian-live pseudo-package. We will then take care about it and reassign it where appropriate.
 
 Please note that bugs found in distributions derived from Debian (such as Ubuntu and others) should *{not}* be reported to the Debian BTS unless they can be also reproduced on a Debian system using official Debian packages.
