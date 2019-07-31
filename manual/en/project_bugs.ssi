@@ -22,6 +22,14 @@ If this causes too much difficulty for you, do not build a system based on *{tes
 
 It is out of the scope of this manual to train you to correctly identify and fix problems in packages of the development distributions, however, you can always try the following: If a build fails when the target distribution is *{testing}*, try *{unstable}*. If *{unstable}* does work, revert to *{testing}* and pin the newer version of the failing package from *{unstable}* (see {APT pinning}#apt-pinning for details).
 
+2~ Do the research
+
+Before filing the bug, please search the web for the particular error message or symptom you are getting. As it is highly unlikely that you are the only person experiencing a particular problem. There is always a chance that it has been discussed elsewhere and a possible solution, patch, or workaround has been proposed.
+
+You should pay particular attention to the live systems mailing list, as well as the homepage, as these are likely to contain the most up-to-date information. If such information exists, always include the references to it in your bug report.
+
+In addition, you should check the current bug lists for live-build, live-boot, live-config and live-tools to see whether something similar has already been reported.
+
 2~ Rebuild from scratch
 
 To ensure that a particular bug is not caused by an uncleanly built system, please always rebuild the whole live system from scratch to see if the bug is reproducible.
@@ -100,14 +108,6 @@ If your image does not boot, please report it to the mailing list together with 
 3~ At run time
 
 If a package was successfully installed, but fails while actually running the Live system, this is probably a bug in the live system.
-
-2~ Do the research
-
-Before filing the bug, please search the web for the particular error message or symptom you are getting. As it is highly unlikely that you are the only person experiencing a particular problem. There is always a chance that it has been discussed elsewhere and a possible solution, patch, or workaround has been proposed.
-
-You should pay particular attention to the live systems mailing list, as well as the homepage, as these are likely to contain the most up-to-date information. If such information exists, always include the references to it in your bug report.
-
-In addition, you should check the current bug lists for live-build, live-boot, live-config and live-tools to see whether something similar has already been reported.
 
 2~ Where to report bugs
 
