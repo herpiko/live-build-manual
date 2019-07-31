@@ -8,7 +8,7 @@ For the impatient:
 
 _* First check whether the bugs has been reported already. You can see the full list of bugs that are assigned to the live-team at https://bugs.debian.org/cgi-bin/pkgreport.cgi?maint=debian-live%40lists.debian.org.
 
-_* Before submitting a bug report always try to reproduce the bug with the *{most recent versions}* of the branch of live-build, live-boot, live-config and live-tools that you're using (like the newest 4.x version of live-build if you're using live-build 4).
+_* Before submitting a bug report always try to reproduce the bug with the *{most recent versions}* of the packages of live-build, live-boot, live-config and live-tools that you're using.
 
 _* Try to give *{as specific information as possible}* about the bug. This includes (at least) the version of live-build, live-boot, live-config, and live-tools used and the distribution of the live system you are building.
 
@@ -29,6 +29,7 @@ To ensure that a particular bug is not caused by an uncleanly built system, plea
 2~ Use up-to-date packages
 
 Using outdated packages can cause significant problems when trying to reproduce (and ultimately fix) your problem. Make sure your build system is up-to-date and any packages included in your image are up-to-date as well.
+If possible, try to reproduce the bug with the newest code from source, see {Installation}#installation for details.
 
 2~collect-information Collect information
 
