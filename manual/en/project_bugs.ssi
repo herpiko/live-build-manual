@@ -107,7 +107,7 @@ If your image does not boot, please report it to the mailing list together with 
 
 3~ At run time
 
-If a package was successfully installed, but fails while actually running the Live system, this is probably a bug in the live system.
+If a package was successfully installed, but fails while actually running the Live system, this is probably a bug in live-config.
 
 2~ Where to report bugs
 
