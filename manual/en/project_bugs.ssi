@@ -18,11 +18,9 @@ Currently known issues are listed in the BTS at https://bugs.debian.org/cgi-bin/
 
 Note: Since Debian *{testing}* and Debian *{unstable}* distributions are moving targets, when you specify either of them as the target system distribution, a successful build may not always be possible.
 
-% FIXME:
-
 If this causes too much difficulty for you, do not build a system based on *{testing}* or *{unstable}*, but rather, use *{stable}*. live-build always defaults to the *{stable}* release.
 
-It is out of the scope of this manual to train you to correctly identify and fix problems in packages of the development distributions, however, there are two things you can always try: If a build fails when the target distribution is *{testing}*, try *{unstable}*. If *{unstable}* does not work either, revert to *{testing}* and pin the newer version of the failing package from *{unstable}* (see {APT pinning}#apt-pinning for details).
+It is out of the scope of this manual to train you to correctly identify and fix problems in packages of the development distributions, however, you can always try the following: If a build fails when the target distribution is *{testing}*, try *{unstable}*. If *{unstable}* does work, revert to *{testing}* and pin the newer version of the failing package from *{unstable}* (see {APT pinning}#apt-pinning for details).
 
 2~ Rebuild from scratch
 
