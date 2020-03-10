@@ -4,7 +4,6 @@ Priority: optional
 Maintainer: Live Systems Maintainers <debian-live@lists.debian.org>
 Uploaders:
  Carlos Zuferri <chals@altorricon.com>,
- Daniel Baumann <mail@daniel-baumann.ch>,
 Build-Depends:
  debhelper (>= 9),
  ruby,
