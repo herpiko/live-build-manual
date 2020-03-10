@@ -8,7 +8,7 @@ All configuration that is done during run time is done by live-config. Here are 
 
 One important consideration is that the live user is created by live-boot at boot time, not by live-build at build time. This not only influences where materials relating to the live user are introduced in your build, as discussed in {Live/chroot local includes}#live-chroot-local-includes, but also any groups and permissions associated with the live user.
 
-You can specify additional groups that the live user will belong to by using any of the possibilities to configure live-config. For example, to add the live user to the #{fuse}# group, you can either add the following file in #{config/includes.chroot/etc/live/config/user-setup.conf}#:
+You can specify additional groups that the live user will belong to by using any of the possibilities to configure live-config. For example, to add the live user to the #{fuse}# group, you can either add the following file in #{config/includes.chroot/etc/live/config.conf.d/10-user-setup.conf}#:
 
 code{
 
