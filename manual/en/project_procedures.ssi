@@ -51,7 +51,7 @@ code{
 
  Updated Live @MAJOR@: @MINOR@ released
 
- The Live Systems Project is pleased to announce the @MINOR@ update of the
+ The Debian Live Project is pleased to announce the @MINOR@ update of the
  Live images for the stable distribution Debian @MAJOR@ (codename "@CODENAME@").
 
  The images are available for download at:
@@ -72,9 +72,9 @@ code{
   * [INSERT LIVE-SPECIFIC CHANGE HERE]
   * [LARGER ISSUES MAY DESERVE THEIR OWN SECTION]
 
- About Live Systems
+ About Debian Live
  ------------------
- The Live Systems Project produces the tools used to build official
+ The Debian Live Project produces the tools used to build official
  live systems and the official live images themselves for Debian.
 
  About Debian
@@ -85,8 +85,8 @@ code{
 
  Contact Information
  -------------------
- For further information, please visit the Live Systems web pages at
- <http://debian-live.alioth.debian.org/>, or contact the Live Systems team at
+ For further information, please visit the Debian Live web pages at
+ <http://debian-live.alioth.debian.org/>, or contact the Debian Live team at
  <debian-live@lists.debian.org>.
 
 }code
