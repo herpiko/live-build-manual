@@ -10,7 +10,7 @@ YEAR="$(LC_ALL=C date +%Y)"
 
 echo "Updating version information..."
 sed -i  -e "s|^ :published:.*$| :published: ${YEAR}-${MONTH}-${DAY}|" \
-	-e "s|(C) 2006-.*|(C) 2006-${YEAR} Live Systems Project|" \
+	-e "s|(C) 2016-.*|(C) 2016-${YEAR} The Debian Live team|" \
 en/live-manual.ssm
 
 # European date format
