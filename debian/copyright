@@ -1,4 +1,4 @@
-Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: live-manual
 Upstream-Contact: Live Systems Project <debian-live@lists.debian.org>
 Source: https://salsa.debian.org/live-team/live-manual
