@@ -1,7 +1,7 @@
 Source: live-manual
 Section: doc
 Priority: optional
-Maintainer: Live Systems Maintainers <debian-live@lists.debian.org>
+Maintainer: Debian Live Maintainers <debian-live@lists.debian.org>
 Uploaders:
  Carlos Zuferri <chals@altorricon.com>,
 Build-Depends:
@@ -29,11 +29,11 @@ Depends:
  live-manual-pdf (>= ${source:Version}),
  live-manual-txt (>= ${source:Version}),
  ${misc:Depends},
-Description: Live Systems Documentation (metapackage)
- The Live Systems project maintains the components to build Debian based Live
+Description: Debian Live Documentation (metapackage)
+ The Debian Live project maintains the components to build Debian based Live
  systems and the official Debian Live images themselves.
  .
- live-manual contains the documentation for the Live Systems project.
+ live-manual contains the documentation for the Debian Live project.
  .
  This package is a metapackage depending on all available output formats.
 
@@ -43,11 +43,11 @@ Depends:
  ${misc:Depends},
 Provides:
  live-manual,
-Description: Live Systems Documentation (epub)
- The Live Systems project maintains the components to build Debian based Live
+Description: Debian Live Documentation (epub)
+ The Debian Live project maintains the components to build Debian based Live
  systems and the official Debian Live images themselves.
  .
- live-manual contains the documentation for the Live Systems project.
+ live-manual contains the documentation for the Debian Live project.
  .
  This package contains the epub output.
 
@@ -57,11 +57,11 @@ Depends:
  ${misc:Depends},
 Provides:
  live-manual,
-Description: Live Systems Documentation (html)
- The Live Systems project maintains the components to build Debian based Live
+Description: Debian Live Documentation (html)
+ The Debian Live project maintains the components to build Debian based Live
  systems and the official Debian Live images themselves.
  .
- live-manual contains the documentation for the Live Systems project.
+ live-manual contains the documentation for the Debian Live project.
  .
  This package contains the html output.
 
@@ -71,11 +71,11 @@ Depends:
  ${misc:Depends},
 Provides:
  live-manual,
-Description: Live Systems Documentation (odf)
- The Live Systems project maintains the components to build Debian based Live
+Description: Debian Live Documentation (odf)
+ The Debian Live project maintains the components to build Debian based Live
  systems and the official Debian Live images themselves.
  .
- live-manual contains the documentation for the Live Systems project.
+ live-manual contains the documentation for the Debian Live project.
  .
  This package contains the odf output.
 
@@ -85,11 +85,11 @@ Depends:
  ${misc:Depends},
 Provides:
  live-manual,
-Description: Live Systems Documentation (pdf)
- The Live Systems project maintains the components to build Debian based Live
+Description: Debian Live Documentation (pdf)
+ The Debian Live project maintains the components to build Debian based Live
  systems and the official Debian Live images themselves.
  .
- live-manual contains the documentation for the Live Systems project.
+ live-manual contains the documentation for the Debian Live project.
  .
  This package contains the pdf output.
 
@@ -99,10 +99,10 @@ Depends:
  ${misc:Depends},
 Provides:
  live-manual,
-Description: Live Systems Documentation (txt)
- The Live Systems project maintains the components to build Debian based Live
+Description: Debian Live Documentation (txt)
+ The Debian Live project maintains the components to build Debian based Live
  systems and the official Debian Live images themselves.
  .
- live-manual contains the documentation for the Live Systems project.
+ live-manual contains the documentation for the Debian Live project.
  .
  This package contains the txt output.
