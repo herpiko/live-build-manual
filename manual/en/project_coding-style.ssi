@@ -18,6 +18,24 @@ _* Make sure all shell code runs with 'set -e'.
 
 _* Always use tabs over spaces.
 
+_* Keep case branch terminators (";;") aligned with the "content" of the branch, rather than the branch "entry".
+
+Good:
+
+code{
+
+ case "${1}" in
+         foo)
+                 foobar
+                 ;;
+
+         bar)
+                 foobar
+                 ;;
+ esac
+
+}code
+
 2~ Wrapping
 
 _* Generally, lines should be 80 chars at maximum.
