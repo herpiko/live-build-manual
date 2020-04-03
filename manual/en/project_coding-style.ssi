@@ -179,10 +179,10 @@ code{
 
 2~ Miscellaneous
 
-_* Use "#{|}#" (without the surround quotes) as a separator in calls to sed, e.g. "#{sed -e 's|foo|bar|'}#" (without "").
+_* Prefer "#{|}#" (without the surround quotes) as a separator in calls to sed, e.g. "#{sed -e 's|foo|bar|'}#" (without "").
 
-_* Don't use the #{test}# command for comparisons or tests, use "#{[}#" "#{]}#" (without ""); e.g. "#{if [ -x /bin/foo ]; ...}#" and not "#{if test -x /bin/foo; ...}#".
+_* Don't use the #{test}# command for comparisons or tests, use "#{[}#" and "#{]}#" (without ""); e.g. "#{if [ -x /bin/foo ]; ...}#" and not "#{if test -x /bin/foo; ...}#".
 
-_* Use #{case}# wherever possible over #{test}#, as it's easier to read and faster in execution.
+_* Use #{case}# wherever it makes code more readable than conditional checks (#{if foo; ...}# and tests without the actual #{if}# keyword, e.g. #{[ -e "${FILE}" ] || exit 0}#).
 
 _* Use capitalized names for functions to limit messing with the users environment.
