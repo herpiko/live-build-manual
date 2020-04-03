@@ -6,9 +6,9 @@ This chapter documents the coding style used in live systems.
 
 2~ Compatibility
 
-_* Don't use syntax or semantics that are unique to the Bash shell. For example, the use of array constructs.
+_* Avoid "bashisms", the codebase must be POSIX compliant and thus universally compatible.
 
-_* Only use the POSIX subset - for example, use $(foo) over `foo`.
+_* Furthermore it must comply with the version of the POSIX specification chosen by the current Debian Policy.
 
 _* You can check your scripts with 'sh -n' and 'checkbashisms'.
 
