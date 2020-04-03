@@ -20,11 +20,11 @@ _* Always use tabs over spaces.
 
 2~ Wrapping
 
-_* Generally, lines are 80 chars at maximum.
+_* Generally, lines should be 80 chars at maximum.
 
-_* Use the "Linux style" of line breaks:
+_* Placement of keywords like #{then}# and #{do}# should be chosen with good judgement with respect to clutter and readability. For small bits of code in particular it should be preferred to have them on the same line as the prior keyword they relate to (#{if}#; #{for}#; etc). Only place on the next line where it makes good sense to do so; typically this might only be to comply with maximum line length restrictions. One situation where they should always be placed on the next line is where what they follow is broken up onto multiple lines, and thus it being on a new line creates clear separation between that and the body of code following it. I.e. :
 
-Bad:
+Preferred:
 
 code{
 
@@ -32,30 +32,44 @@ code{
          bar
  fi
 
-}code
-
-Good:
-
-code{
-
- if foo
- then
+ for FOO in $ITEMS; do
          bar
+ done
+
+ if [ "${MY_LOCATION_VARIABLE}" = "something" ] && [ -e "${MY_OUTPUT_FILE}" ]
+ then
+         MY_OTHER_VARIABLE="$(some_bin ${FOOBAR} | awk -F_ '{ print $1 }')"
+ fi
+
+ if [ "${MY_FOO}" = "something" ] && [ -e "path/${FILE_1}" ] ||
+   [ "${MY_BAR}" = "something_else" ] && [ ${ALLOW} = "true" ]
+ then
+         foobar
  fi
 
 }code
 
-_* The same holds for functions:
-
-Bad:
+Less ideal:
 
 code{
 
- Foo () {
-         bar
- }
+ if [ "${MY_LOCATION_VARIABLE}" = "something" ] && [ -e "${MY_OUTPUT_FILE}" ]; then
+         MY_OTHER_VARIABLE="$(some_bin ${FOOBAR} | awk -F_ '{ print $1 }')"
+ fi
 
 }code
+
+Horrible:
+
+code{
+
+ if [ "${MY_LOCATION_VARIABLE}" = "something" ] && [ -e "${MY_OUTPUT_FILE}" ] || [ "${MY_LOCATION_VARIABLE}" = "something-else" ] && [ -e "${MY_OUTPUT_FILE_2}" ]; then
+         MY_OTHER_VARIABLE="$(some_bin ${FOOBAR} | awk -F_ '{ print $1 }')"
+ fi
+
+}code
+
+_* Prefer placing the opening brace of a function on a new line (for consistency with established style), and keep the braces aligned with the function name:
 
 Good:
 
@@ -65,6 +79,27 @@ code{
  {
          bar
  }
+
+}code
+
+Bad (inconsistent with existing style):
+
+code{
+
+ Foo () {
+         bar
+ }
+
+}code
+
+Awful:
+
+code{
+
+ Foo ()
+         {
+         bar
+         }
 
 }code
 
@@ -110,8 +145,7 @@ Bad:
 
 code{
 
- if [ -f "${FOO}"/foo/"${BAR}"/bar ]
- then
+ if [ -f "${FOO}"/foo/"${BAR}"/bar ]; then
          foobar
  fi
 
@@ -121,8 +155,7 @@ Good:
 
 code{
 
- if [ -f "${FOO}/foo/${BAR}/bar" ]
- then
+ if [ -f "${FOO}/foo/${BAR}/bar" ]; then
          foobar
  fi
 
