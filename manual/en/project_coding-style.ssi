@@ -185,4 +185,4 @@ _* Don't use the #{test}# command for comparisons or tests, use "#{[}#" and "#{]
 
 _* Use #{case}# wherever it makes code more readable than conditional checks (#{if foo; ...}# and tests without the actual #{if}# keyword, e.g. #{[ -e "${FILE}" ] || exit 0}#).
 
-_* Use capitalized names for functions to limit messing with the users environment.
+_* Use "Foo_bar" style names for functions, i.e. a capital first letter, then all lowercase, with sensible use of underscores for better readability.
