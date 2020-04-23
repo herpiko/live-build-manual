@@ -57,8 +57,6 @@
 
 << project_coding-style.ssi
 
-<< project_procedures.ssi
-
 :B~ Examples
 
 << examples.ssi
