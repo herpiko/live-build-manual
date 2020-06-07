@@ -4,6 +4,7 @@ live-manual (2:20151218) UNRELEASED; urgency=low
   * Bump debhelper from deprecated 9 to 12.
     + debian/rules: Move --fail-missing argument to dh_missing.
   * Set debhelper-compat version in Build-Depends.
+  * Drop unnecessary dh arguments: --parallel
 
  -- Debian Janitor <janitor@jelmer.uk>  Sun, 07 Jun 2020 23:39:12 -0000
 
