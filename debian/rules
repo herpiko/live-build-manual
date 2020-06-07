@@ -29,5 +29,5 @@ override_dh_builddeb:
 override_dh_compress:
 	dh_compress -X.epub -X.html -X.odt
 
-override_dh_install:
-	dh_install --fail-missing
+override_dh_missing:
+	dh_missing --fail-missing
