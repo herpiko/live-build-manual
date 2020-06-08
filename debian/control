@@ -5,7 +5,7 @@ Maintainer: Debian Live Maintainers <debian-live@lists.debian.org>
 Uploaders:
  Carlos Zuferri <chals@altorricon.com>,
 Build-Depends:
- debhelper (>= 9),
+ debhelper-compat (= 12),
  ruby,
  ruby-nokogiri,
 Build-Depends-Indep:
