@@ -6,6 +6,9 @@ live-manual (2:20151218) UNRELEASED; urgency=low
   * Set debhelper-compat version in Build-Depends.
   * Drop unnecessary dh arguments: --parallel
   * Fix day-of-week for changelog entry 20090201-1.
+  * Apply multi-arch hints.
+    + live-manual-epub, live-manual-html, live-manual-odf, live-manual-pdf,
+      live-manual-txt: Add Multi-Arch: foreign.
 
  -- Debian Janitor <janitor@jelmer.uk>  Sun, 07 Jun 2020 23:39:12 -0000
 
