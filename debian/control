@@ -43,6 +43,7 @@ Depends:
  ${misc:Depends},
 Provides:
  live-manual,
+Multi-Arch: foreign
 Description: Debian Live Documentation (epub)
  The Debian Live project maintains the components to build Debian based Live
  systems and the official Debian Live images themselves.
@@ -57,6 +58,7 @@ Depends:
  ${misc:Depends},
 Provides:
  live-manual,
+Multi-Arch: foreign
 Description: Debian Live Documentation (html)
  The Debian Live project maintains the components to build Debian based Live
  systems and the official Debian Live images themselves.
@@ -71,6 +73,7 @@ Depends:
  ${misc:Depends},
 Provides:
  live-manual,
+Multi-Arch: foreign
 Description: Debian Live Documentation (odf)
  The Debian Live project maintains the components to build Debian based Live
  systems and the official Debian Live images themselves.
@@ -85,6 +88,7 @@ Depends:
  ${misc:Depends},
 Provides:
  live-manual,
+Multi-Arch: foreign
 Description: Debian Live Documentation (pdf)
  The Debian Live project maintains the components to build Debian based Live
  systems and the official Debian Live images themselves.
@@ -99,6 +103,7 @@ Depends:
  ${misc:Depends},
 Provides:
  live-manual,
+Multi-Arch: foreign
 Description: Debian Live Documentation (txt)
  The Debian Live project maintains the components to build Debian based Live
  systems and the official Debian Live images themselves.
