@@ -286,7 +286,7 @@ _* #{aptitude}#: With this method, if a missing package is specified, the packag
 
 3~ Using a proxy with APT
 
-One commonly required APT configuration is to deal with building an image behind a proxy. You may specify your APT proxy with the #{--apt-ftp-proxy}# or #{--apt-http-proxy}# options as needed, e.g.
+One commonly required APT configuration is to deal with building an image behind a proxy. You may specify your APT proxy with the #{--apt-http-proxy}# option as needed, e.g.
 
 code{
 
