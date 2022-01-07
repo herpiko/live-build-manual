@@ -154,3 +154,5 @@ translate:
 
 spell:
 	@./manual/bin/check-spelling.sh
+
+.PHONY: all test tidy build autobuild commit info install uninstall clean distclean rebuild fixfuzzy check translate spell
