@@ -4,7 +4,7 @@
 
 2~requirements Requirements
 
-Building live system images has very few system requirements:
+Building live system images has very few system requirements for the host system:
 
 _* Superuser (root) access
 
@@ -14,7 +14,15 @@ _* A POSIX-compliant shell, such as /{bash}/ or /{dash}/
 
 _* /{debootstrap}/
 
-_* Linux 2.6 or newer.
+_* Linux 2.6 or newer
+
+_* A mount point with /{dev}/ and /{exec}/ rights.
+
+code{
+
+ # mount <your_mount_point> -odev,exec,remount
+
+}code
 
 Note that using Debian or a Debian-derived distribution is not required - live-build will run on almost any distribution with the above requirements.
 

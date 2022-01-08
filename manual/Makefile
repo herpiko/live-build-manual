@@ -68,4 +68,4 @@ check:
 	
 	@echo " done!"
 
-.PHONY: po4a.cfg
+.PHONY: all update build clean distclean rebuild check
