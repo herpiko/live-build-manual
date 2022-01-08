@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE
-# Copyright (C) YEAR Free Software Foundation, Inc.
+# Copyright (C) YEAR Debian Live Project
 # This file is distributed under the same license as the live-manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -7,172 +7,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: live-manual 5.0~a2-1\n"
-"POT-Creation-Date: 2015-09-22 15:17+0200\n"
+"POT-Creation-Date: 2022-01-08 13:39+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-#. type: Plain text
-#: en/about_manual.ssi:92 en/about_manual.ssi:100 en/about_manual.ssi:108
-#: en/about_manual.ssi:116 en/about_manual.ssi:124 en/about_manual.ssi:132
-#: en/appendix_style-guide.ssi:124 en/appendix_style-guide.ssi:134
-#: en/appendix_style-guide.ssi:144 en/appendix_style-guide.ssi:154
-#: en/appendix_style-guide.ssi:164 en/appendix_style-guide.ssi:177
-#: en/examples.ssi:14 en/examples.ssi:30 en/examples.ssi:40 en/examples.ssi:54
-#: en/examples.ssi:67 en/examples.ssi:83 en/examples.ssi:93 en/examples.ssi:106
-#: en/examples.ssi:114 en/examples.ssi:124 en/examples.ssi:134
-#: en/examples.ssi:149 en/examples.ssi:157 en/examples.ssi:165
-#: en/examples.ssi:173 en/examples.ssi:189 en/examples.ssi:203
-#: en/examples.ssi:211 en/examples.ssi:219 en/examples.ssi:235
-#: en/examples.ssi:249 en/examples.ssi:257 en/examples.ssi:265
-#: en/examples.ssi:285 en/examples.ssi:293 en/examples.ssi:302
-#: en/examples.ssi:312 en/project_bugs.ssi:62 en/project_coding-style.ssi:30
-#: en/project_coding-style.ssi:40 en/project_coding-style.ssi:53
-#: en/project_coding-style.ssi:63 en/project_coding-style.ssi:94
-#: en/project_coding-style.ssi:102 en/project_coding-style.ssi:112
-#: en/project_coding-style.ssi:123 en/project_contributing.ssi:34
-#: en/project_contributing.ssi:45 en/project_contributing.ssi:59
-#: en/project_contributing.ssi:68 en/project_contributing.ssi:79
-#: en/project_contributing.ssi:87 en/project_git.ssi:8 en/project_git.ssi:16
-#: en/project_git.ssi:24 en/project_git.ssi:34 en/project_git.ssi:44
-#: en/project_git.ssi:56 en/project_procedures.ssi:39
-#: en/project_procedures.ssi:51 en/user_basics.ssi:50 en/user_basics.ssi:58
-#: en/user_basics.ssi:68 en/user_basics.ssi:86 en/user_basics.ssi:100
-#: en/user_basics.ssi:113 en/user_basics.ssi:121 en/user_basics.ssi:159
-#: en/user_basics.ssi:167 en/user_basics.ssi:179 en/user_basics.ssi:190
-#: en/user_basics.ssi:198 en/user_basics.ssi:210 en/user_basics.ssi:218
-#: en/user_basics.ssi:226 en/user_basics.ssi:238 en/user_basics.ssi:250
-#: en/user_basics.ssi:260 en/user_basics.ssi:270 en/user_basics.ssi:288
-#: en/user_basics.ssi:319 en/user_basics.ssi:335 en/user_basics.ssi:343
-#: en/user_basics.ssi:363 en/user_basics.ssi:390 en/user_basics.ssi:406
-#: en/user_customization-binary.ssi:18 en/user_customization-contents.ssi:24
-#: en/user_customization-contents.ssi:33 en/user_customization-contents.ssi:51
-#: en/user_customization-installer.ssi:32
-#: en/user_customization-installer.ssi:44 en/user_customization-packages.ssi:14
-#: en/user_customization-packages.ssi:22 en/user_customization-packages.ssi:40
-#: en/user_customization-packages.ssi:53 en/user_customization-packages.ssi:67
-#: en/user_customization-packages.ssi:95 en/user_customization-packages.ssi:106
-#: en/user_customization-packages.ssi:114
-#: en/user_customization-packages.ssi:138
-#: en/user_customization-packages.ssi:151
-#: en/user_customization-packages.ssi:161
-#: en/user_customization-packages.ssi:171
-#: en/user_customization-packages.ssi:195
-#: en/user_customization-packages.ssi:211
-#: en/user_customization-packages.ssi:290
-#: en/user_customization-packages.ssi:302
-#: en/user_customization-packages.ssi:312
-#: en/user_customization-packages.ssi:326
-#: en/user_customization-packages.ssi:342
-#: en/user_customization-packages.ssi:359 en/user_customization-runtime.ssi:14
-#: en/user_customization-runtime.ssi:26 en/user_customization-runtime.ssi:44
-#: en/user_customization-runtime.ssi:56 en/user_customization-runtime.ssi:75
-#: en/user_customization-runtime.ssi:83 en/user_customization-runtime.ssi:92
-#: en/user_customization-runtime.ssi:121 en/user_customization-runtime.ssi:131
-#: en/user_customization-runtime.ssi:139 en/user_customization-runtime.ssi:148
-#: en/user_customization-runtime.ssi:157 en/user_customization-runtime.ssi:172
-#: en/user_customization-runtime.ssi:202 en/user_customization-runtime.ssi:210
-#: en/user_customization-runtime.ssi:219 en/user_customization-runtime.ssi:229
-#: en/user_customization-runtime.ssi:237 en/user_customization-runtime.ssi:245
-#: en/user_customization-runtime.ssi:253 en/user_customization-runtime.ssi:261
-#: en/user_customization-runtime.ssi:269 en/user_customization-runtime.ssi:277
-#: en/user_customization-runtime.ssi:285 en/user_installation.ssi:38
-#: en/user_installation.ssi:48 en/user_installation.ssi:56
-#: en/user_installation.ssi:66 en/user_installation.ssi:74
-#: en/user_installation.ssi:82 en/user_installation.ssi:106
-#: en/user_installation.ssi:121 en/user_installation.ssi:134
-#: en/user_managing_a_configuration.ssi:22
-#: en/user_managing_a_configuration.ssi:32
-#: en/user_managing_a_configuration.ssi:55
-#: en/user_managing_a_configuration.ssi:67
-#: en/user_managing_a_configuration.ssi:76 en/user_overview.ssi:34
-#: en/user_overview.ssi:47 en/user_overview.ssi:55
-msgid "code{"
-msgstr ""
-
-#. type: Plain text
-#: en/about_manual.ssi:96 en/about_manual.ssi:104 en/about_manual.ssi:112
-#: en/about_manual.ssi:120 en/about_manual.ssi:128 en/about_manual.ssi:136
-#: en/appendix_style-guide.ssi:128 en/appendix_style-guide.ssi:138
-#: en/appendix_style-guide.ssi:148 en/appendix_style-guide.ssi:158
-#: en/appendix_style-guide.ssi:173 en/appendix_style-guide.ssi:182
-#: en/examples.ssi:20 en/examples.ssi:34 en/examples.ssi:44 en/examples.ssi:61
-#: en/examples.ssi:71 en/examples.ssi:89 en/examples.ssi:102
-#: en/examples.ssi:110 en/examples.ssi:118 en/examples.ssi:128
-#: en/examples.ssi:141 en/examples.ssi:153 en/examples.ssi:161
-#: en/examples.ssi:169 en/examples.ssi:177 en/examples.ssi:197
-#: en/examples.ssi:207 en/examples.ssi:215 en/examples.ssi:231
-#: en/examples.ssi:239 en/examples.ssi:253 en/examples.ssi:261
-#: en/examples.ssi:269 en/examples.ssi:289 en/examples.ssi:298
-#: en/examples.ssi:308 en/examples.ssi:324 en/project_bugs.ssi:66
-#: en/project_coding-style.ssi:36 en/project_coding-style.ssi:47
-#: en/project_coding-style.ssi:59 en/project_coding-style.ssi:70
-#: en/project_coding-style.ssi:98 en/project_coding-style.ssi:106
-#: en/project_coding-style.ssi:119 en/project_coding-style.ssi:130
-#: en/project_contributing.ssi:41 en/project_contributing.ssi:55
-#: en/project_contributing.ssi:64 en/project_contributing.ssi:73
-#: en/project_contributing.ssi:83 en/project_contributing.ssi:91
-#: en/project_git.ssi:12 en/project_git.ssi:20 en/project_git.ssi:28
-#: en/project_git.ssi:38 en/project_git.ssi:48 en/project_git.ssi:60
-#: en/project_procedures.ssi:47 en/project_procedures.ssi:92
-#: en/user_basics.ssi:54 en/user_basics.ssi:62 en/user_basics.ssi:72
-#: en/user_basics.ssi:91 en/user_basics.ssi:105 en/user_basics.ssi:117
-#: en/user_basics.ssi:125 en/user_basics.ssi:163 en/user_basics.ssi:171
-#: en/user_basics.ssi:184 en/user_basics.ssi:194 en/user_basics.ssi:202
-#: en/user_basics.ssi:214 en/user_basics.ssi:222 en/user_basics.ssi:230
-#: en/user_basics.ssi:242 en/user_basics.ssi:254 en/user_basics.ssi:264
-#: en/user_basics.ssi:274 en/user_basics.ssi:311 en/user_basics.ssi:323
-#: en/user_basics.ssi:339 en/user_basics.ssi:347 en/user_basics.ssi:374
-#: en/user_basics.ssi:394 en/user_basics.ssi:410
-#: en/user_customization-binary.ssi:25 en/user_customization-contents.ssi:29
-#: en/user_customization-contents.ssi:43 en/user_customization-contents.ssi:55
-#: en/user_customization-installer.ssi:38
-#: en/user_customization-installer.ssi:49 en/user_customization-packages.ssi:18
-#: en/user_customization-packages.ssi:26 en/user_customization-packages.ssi:45
-#: en/user_customization-packages.ssi:59 en/user_customization-packages.ssi:71
-#: en/user_customization-packages.ssi:100
-#: en/user_customization-packages.ssi:110
-#: en/user_customization-packages.ssi:118
-#: en/user_customization-packages.ssi:143
-#: en/user_customization-packages.ssi:157
-#: en/user_customization-packages.ssi:167
-#: en/user_customization-packages.ssi:177
-#: en/user_customization-packages.ssi:201
-#: en/user_customization-packages.ssi:216
-#: en/user_customization-packages.ssi:294
-#: en/user_customization-packages.ssi:306
-#: en/user_customization-packages.ssi:316
-#: en/user_customization-packages.ssi:330
-#: en/user_customization-packages.ssi:355
-#: en/user_customization-packages.ssi:364 en/user_customization-runtime.ssi:18
-#: en/user_customization-runtime.ssi:30 en/user_customization-runtime.ssi:48
-#: en/user_customization-runtime.ssi:69 en/user_customization-runtime.ssi:79
-#: en/user_customization-runtime.ssi:88 en/user_customization-runtime.ssi:97
-#: en/user_customization-runtime.ssi:125 en/user_customization-runtime.ssi:135
-#: en/user_customization-runtime.ssi:144 en/user_customization-runtime.ssi:153
-#: en/user_customization-runtime.ssi:162 en/user_customization-runtime.ssi:180
-#: en/user_customization-runtime.ssi:206 en/user_customization-runtime.ssi:215
-#: en/user_customization-runtime.ssi:223 en/user_customization-runtime.ssi:233
-#: en/user_customization-runtime.ssi:241 en/user_customization-runtime.ssi:249
-#: en/user_customization-runtime.ssi:257 en/user_customization-runtime.ssi:265
-#: en/user_customization-runtime.ssi:273 en/user_customization-runtime.ssi:281
-#: en/user_customization-runtime.ssi:289 en/user_installation.ssi:42
-#: en/user_installation.ssi:52 en/user_installation.ssi:62
-#: en/user_installation.ssi:70 en/user_installation.ssi:78
-#: en/user_installation.ssi:86 en/user_installation.ssi:111
-#: en/user_installation.ssi:128 en/user_installation.ssi:139
-#: en/user_managing_a_configuration.ssi:28
-#: en/user_managing_a_configuration.ssi:43
-#: en/user_managing_a_configuration.ssi:61
-#: en/user_managing_a_configuration.ssi:72
-#: en/user_managing_a_configuration.ssi:80 en/user_overview.ssi:41
-#: en/user_overview.ssi:51 en/user_overview.ssi:59
-msgid "}code"
-msgstr ""
 
 #. type: Plain text
 #: en/project_contributing.ssi:2
@@ -197,50 +39,20 @@ msgstr ""
 #: en/project_contributing.ssi:8
 msgid ""
 "Contributions to the project, such as translations and patches, are greatly "
-"welcome. Anyone can directly commit to the repositories, however, we ask you "
-"to send bigger changes to the mailing list to discuss them first. See the "
-"section {Contact}#contact for more information."
+"welcome. Anyone can send merge requests. The projects are hosted on Salsa: "
+"https://salsa.debian.org/live-team follow Salsa's documentation for "
+"instructions on how to contribute."
 msgstr ""
 
 #. type: Plain text
 #: en/project_contributing.ssi:10
-msgid ""
-"The ${project} uses Git as version control system and source code "
-"management. As explained in {Git repositories}#git-repositories there are "
-"two main development branches: *{debian}* and *{debian-next}*. Everybody can "
-"commit to the debian-next branches of the live-boot, live-build, live-"
-"config, live-images, live-manual and live-tools repositories."
-msgstr ""
-
-#. type: Plain text
-#: en/project_contributing.ssi:12
-msgid "However, there are certain restrictions. The server will reject:"
-msgstr ""
-
-#. type: Plain text
-#: en/project_contributing.ssi:14
-msgid "_* Non fast-forward pushes."
-msgstr ""
-
-#. type: Plain text
-#: en/project_contributing.ssi:16
-msgid "_* Merge commits."
-msgstr ""
-
-#. type: Plain text
-#: en/project_contributing.ssi:18
-msgid "_* Adding or removing tags or branches."
-msgstr ""
-
-#. type: Plain text
-#: en/project_contributing.ssi:20
 msgid ""
 "Even though all commits might be revised, we ask you to use your common "
 "sense and make good commits with good commit messages."
 msgstr ""
 
 #. type: Plain text
-#: en/project_contributing.ssi:22
+#: en/project_contributing.ssi:12
 msgid ""
 "_* Write commit messages that consist of complete, meaningful sentences in "
 "English, starting with a capital letter and ending with a full stop. "
@@ -249,7 +61,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: en/project_contributing.ssi:24
+#: en/project_contributing.ssi:14
 msgid ""
 "_* Write good commit messages. The first line must be an accurate summary of "
 "the contents of the commit which will be included in the changelog. If you "
@@ -259,123 +71,19 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: en/project_contributing.ssi:26
+#: en/project_contributing.ssi:16
 msgid ""
 "_* Commit atomically, this is to say, do not mix unrelated things in the "
 "same commit. Make one different commit for each change you make."
 msgstr ""
 
 #. type: Plain text
-#: en/project_contributing.ssi:28
-msgid "2~ Making changes"
-msgstr ""
-
-#. type: Plain text
-#: en/project_contributing.ssi:30
-msgid ""
-"In order to push to the repositories, you must follow the following "
-"procedure. Here we use live-manual as an example so replace it with the name "
-"of the repository you want to work with. For detailed information on how to "
-"edit live-manual see {Contributing to this document}#how-to-contribute."
-msgstr ""
-
-#. type: Plain text
-#: en/project_contributing.ssi:32
-msgid "_* Fetch the public commit key:"
-msgstr ""
-
-#. type: Plain text
-#: en/project_contributing.ssi:39
-#, no-wrap
-msgid ""
-" $ mkdir -p ~/.ssh/keys\n"
-" $ wget http://debian-live.alioth.debian.org/other/keys/git@debian-live.alioth.debian.org -O ~/.ssh/keys/git@debian-live.alioth.debian.org\n"
-" $ wget http://debian-live.alioth.debian.org/other/keys/git@debian-live.alioth.debian.org.pub -O ~/.ssh/keys/git@debian-live.alioth.debian.org.pub\n"
-" $ chmod 0600 ~/.ssh/keys/git@debian-live.alioth.debian.org*\n"
-msgstr ""
-
-#. type: Plain text
-#: en/project_contributing.ssi:43
-msgid "_* Add the following section to your openssh-client config:"
-msgstr ""
-
-#. type: Plain text
-#: en/project_contributing.ssi:53
-#, no-wrap
-msgid ""
-" $ cat >> ~/.ssh/config << EOF\n"
-" Host debian-live.alioth.debian.org\n"
-"     Hostname debian-live.alioth.debian.org\n"
-"     User git\n"
-"     IdentitiesOnly yes\n"
-"     IdentityFile ~/.ssh/keys/git@debian-live.alioth.debian.org\n"
-" EOF\n"
-msgstr ""
-
-#. type: Plain text
-#: en/project_contributing.ssi:57
-msgid "_* Check out a clone of live-manual through ssh:"
-msgstr ""
-
-#. type: Plain text
-#: en/project_contributing.ssi:62
-#, no-wrap
-msgid ""
-" $ git clone ssh://git.debian.org/git/debian-live/live-manual.git\n"
-" $ cd live-manual && git checkout debian-next\n"
-msgstr ""
-
-#. type: Plain text
-#: en/project_contributing.ssi:66
-msgid "_* Make sure you have Git author and email set:"
-msgstr ""
-
-#. type: Plain text
-#: en/project_contributing.ssi:71
-#, no-wrap
-msgid ""
-"  $ git config user.name \"John Doe\"\n"
-"  $ git config user.email john@example.org\n"
-msgstr ""
-
-#. type: Plain text
-#: en/project_contributing.ssi:75
-#, no-wrap
-msgid "*{Important:}* Remember that you should commit any changes on the *{debian-next}* branch.\n"
-msgstr ""
-
-#. type: Plain text
-#: en/project_contributing.ssi:77
-msgid ""
-"_* Make your changes. In this example you would first write a new section "
-"dealing with applying patches and then prepare to commit adding the files "
-"and writing your commit message like this:"
-msgstr ""
-
-#. type: Plain text
-#: en/project_contributing.ssi:81
-#, no-wrap
-msgid " $ git commit -a -m \"Adding a section on applying patches.\"\n"
-msgstr ""
-
-#. type: Plain text
-#: en/project_contributing.ssi:85
-msgid "_* Push the commit to the server:"
-msgstr ""
-
-#. type: Plain text
-#: en/project_contributing.ssi:89
-#, no-wrap
-msgid " $ git push\n"
-msgstr ""
-
-#. type: Plain text
-#: en/project_contributing.ssi:93
+#: en/project_contributing.ssi:18
 msgid "2~translation-of-manpages Translation of man pages"
 msgstr ""
 
 #. type: Plain text
-#: en/project_contributing.ssi:95
+#: en/project_contributing.ssi:20
 msgid ""
 "You can also contribute to the project working on the translation of the man "
 "pages for the different live-* packages that the project maintains. The "
@@ -384,12 +92,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: en/project_contributing.ssi:97
+#: en/project_contributing.ssi:22
 msgid "_* Working on an already existing translation"
 msgstr ""
 
 #. type: Plain text
-#: en/project_contributing.ssi:99
+#: en/project_contributing.ssi:24
 msgid ""
 "If you want to maintain the translation of an already existing language you "
 "have to make your changes to your #{manpages/po/${LANGUAGE}/*.po}# file or "
@@ -398,19 +106,19 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: en/project_contributing.ssi:101
+#: en/project_contributing.ssi:26
 msgid "_* Starting a new translation from scratch"
 msgstr ""
 
 #. type: Plain text
-#: en/project_contributing.ssi:103
+#: en/project_contributing.ssi:28
 msgid ""
 "In order to add a new translation of any of the project's man pages you have "
 "to follow a similar procedure. It could be summarized as follows:"
 msgstr ""
 
 #. type: Plain text
-#: en/project_contributing.ssi:105
+#: en/project_contributing.ssi:30
 msgid ""
 "_2* Open the #{manpages/pot/}# file or files in your favourite editor, such "
 "as /{poedit}/, and save it as a .po file in #{manpages/po/${LANGUAGE}/}#. "
@@ -418,14 +126,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: en/project_contributing.ssi:107
+#: en/project_contributing.ssi:32
 msgid ""
 "_2* Run #{make rebuild}# from inside the #{manpages/}# directory to create "
 "the #{manpages/${LANGUAGE}/}# files which will contain the actual man pages."
 msgstr ""
 
 #. type: Plain text
-#: en/project_contributing.ssi:109
+#: en/project_contributing.ssi:34
 msgid ""
 "Remember that you will have to add all the directories and files, then make "
 "the commit and finally push to the git server."

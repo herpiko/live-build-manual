@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE
-# Copyright (C) YEAR Free Software Foundation, Inc.
+# Copyright (C) YEAR Debian Live Project
 # This file is distributed under the same license as the live-manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: live-manual 5.0~a2-1\n"
-"POT-Creation-Date: 2015-09-21 20:16+0200\n"
+"POT-Creation-Date: 2022-01-08 13:39+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
@@ -32,7 +32,7 @@ msgid ""
 "This manual serves as a single access point to all documentation related to "
 "the ${project} and in particular applies to the software produced by the "
 "project for the Debian 9.0 \"${stable}\" release. An up-to-date version can "
-"always be found at http://debian-live.alioth.debian.org/"
+"always be found at https://live-team.pages.debian.net/live-manual/"
 msgstr ""
 
 #. type: Plain text
@@ -298,16 +298,21 @@ msgstr ""
 
 #. type: Plain text
 #: en/about_manual.ssi:82
-msgid "_* Trent W. Buck"
+msgid "_* Roland Clobus"
 msgstr ""
 
 #. type: Plain text
 #: en/about_manual.ssi:84
-msgid "2~how-to-contribute Contributing to this document"
+msgid "_* Trent W. Buck"
 msgstr ""
 
 #. type: Plain text
 #: en/about_manual.ssi:86
+msgid "2~how-to-contribute Contributing to this document"
+msgstr ""
+
+#. type: Plain text
+#: en/about_manual.ssi:88
 msgid ""
 "This manual is intended as a community project and all proposals for "
 "improvements and contributions are extremely welcome. Please see the section "
@@ -316,12 +321,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: en/about_manual.ssi:88
+#: en/about_manual.ssi:90
 msgid "3~applying-changes Applying changes"
 msgstr ""
 
 #. type: Plain text
-#: en/about_manual.ssi:90
+#: en/about_manual.ssi:92
 msgid ""
 "In order to make changes to the English manual you have to edit the right "
 "files in #{manual/en/}# but prior to the submission of your contribution, "
@@ -330,8 +335,8 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: en/about_manual.ssi:92 en/about_manual.ssi:100 en/about_manual.ssi:108
-#: en/about_manual.ssi:116 en/about_manual.ssi:124 en/about_manual.ssi:132
+#: en/about_manual.ssi:94 en/about_manual.ssi:102 en/about_manual.ssi:110
+#: en/about_manual.ssi:118 en/about_manual.ssi:126 en/about_manual.ssi:134
 #: en/appendix_style-guide.ssi:124 en/appendix_style-guide.ssi:134
 #: en/appendix_style-guide.ssi:144 en/appendix_style-guide.ssi:154
 #: en/appendix_style-guide.ssi:164 en/appendix_style-guide.ssi:177
@@ -342,26 +347,22 @@ msgstr ""
 #: en/examples.ssi:173 en/examples.ssi:189 en/examples.ssi:203
 #: en/examples.ssi:211 en/examples.ssi:219 en/examples.ssi:235
 #: en/examples.ssi:249 en/examples.ssi:257 en/examples.ssi:265
-#: en/examples.ssi:285 en/examples.ssi:293 en/examples.ssi:302
-#: en/examples.ssi:312 en/project_bugs.ssi:62 en/project_coding-style.ssi:30
-#: en/project_coding-style.ssi:40 en/project_coding-style.ssi:53
-#: en/project_coding-style.ssi:63 en/project_coding-style.ssi:94
-#: en/project_coding-style.ssi:102 en/project_coding-style.ssi:112
-#: en/project_coding-style.ssi:123 en/project_contributing.ssi:34
-#: en/project_contributing.ssi:45 en/project_contributing.ssi:59
-#: en/project_contributing.ssi:68 en/project_contributing.ssi:79
-#: en/project_contributing.ssi:87 en/project_git.ssi:8 en/project_git.ssi:16
-#: en/project_git.ssi:24 en/project_git.ssi:34 en/project_git.ssi:44
-#: en/project_git.ssi:56 en/project_procedures.ssi:39
-#: en/project_procedures.ssi:51 en/user_basics.ssi:50 en/user_basics.ssi:58
-#: en/user_basics.ssi:68 en/user_basics.ssi:86 en/user_basics.ssi:100
-#: en/user_basics.ssi:113 en/user_basics.ssi:121 en/user_basics.ssi:159
-#: en/user_basics.ssi:167 en/user_basics.ssi:179 en/user_basics.ssi:190
-#: en/user_basics.ssi:198 en/user_basics.ssi:210 en/user_basics.ssi:218
-#: en/user_basics.ssi:226 en/user_basics.ssi:238 en/user_basics.ssi:250
-#: en/user_basics.ssi:260 en/user_basics.ssi:270 en/user_basics.ssi:288
-#: en/user_basics.ssi:319 en/user_basics.ssi:335 en/user_basics.ssi:343
-#: en/user_basics.ssi:363 en/user_basics.ssi:390 en/user_basics.ssi:406
+#: en/examples.ssi:273 en/examples.ssi:293 en/examples.ssi:301
+#: en/examples.ssi:310 en/examples.ssi:320 en/project_bugs.ssi:69
+#: en/project_coding-style.ssi:26 en/project_coding-style.ssi:48
+#: en/project_coding-style.ssi:73 en/project_coding-style.ssi:83
+#: en/project_coding-style.ssi:95 en/project_coding-style.ssi:106
+#: en/project_coding-style.ssi:116 en/project_coding-style.ssi:145
+#: en/project_coding-style.ssi:153 en/project_coding-style.ssi:163
+#: en/project_coding-style.ssi:173 en/user_basics.ssi:34 en/user_basics.ssi:42
+#: en/user_basics.ssi:52 en/user_basics.ssi:70 en/user_basics.ssi:84
+#: en/user_basics.ssi:97 en/user_basics.ssi:105 en/user_basics.ssi:143
+#: en/user_basics.ssi:151 en/user_basics.ssi:163 en/user_basics.ssi:174
+#: en/user_basics.ssi:182 en/user_basics.ssi:194 en/user_basics.ssi:202
+#: en/user_basics.ssi:210 en/user_basics.ssi:222 en/user_basics.ssi:234
+#: en/user_basics.ssi:244 en/user_basics.ssi:254 en/user_basics.ssi:272
+#: en/user_basics.ssi:303 en/user_basics.ssi:319 en/user_basics.ssi:327
+#: en/user_basics.ssi:347 en/user_basics.ssi:374 en/user_basics.ssi:390
 #: en/user_customization-binary.ssi:18 en/user_customization-contents.ssi:24
 #: en/user_customization-contents.ssi:33 en/user_customization-contents.ssi:51
 #: en/user_customization-installer.ssi:32
@@ -370,18 +371,19 @@ msgstr ""
 #: en/user_customization-packages.ssi:53 en/user_customization-packages.ssi:67
 #: en/user_customization-packages.ssi:95 en/user_customization-packages.ssi:106
 #: en/user_customization-packages.ssi:114
-#: en/user_customization-packages.ssi:138
-#: en/user_customization-packages.ssi:151
-#: en/user_customization-packages.ssi:161
-#: en/user_customization-packages.ssi:171
-#: en/user_customization-packages.ssi:195
-#: en/user_customization-packages.ssi:211
-#: en/user_customization-packages.ssi:290
-#: en/user_customization-packages.ssi:302
-#: en/user_customization-packages.ssi:312
-#: en/user_customization-packages.ssi:326
-#: en/user_customization-packages.ssi:342
-#: en/user_customization-packages.ssi:359 en/user_customization-runtime.ssi:14
+#: en/user_customization-packages.ssi:140
+#: en/user_customization-packages.ssi:153
+#: en/user_customization-packages.ssi:163
+#: en/user_customization-packages.ssi:173
+#: en/user_customization-packages.ssi:197
+#: en/user_customization-packages.ssi:213
+#: en/user_customization-packages.ssi:292
+#: en/user_customization-packages.ssi:304
+#: en/user_customization-packages.ssi:314
+#: en/user_customization-packages.ssi:328
+#: en/user_customization-packages.ssi:343
+#: en/user_customization-packages.ssi:359
+#: en/user_customization-packages.ssi:376 en/user_customization-runtime.ssi:14
 #: en/user_customization-runtime.ssi:26 en/user_customization-runtime.ssi:44
 #: en/user_customization-runtime.ssi:56 en/user_customization-runtime.ssi:75
 #: en/user_customization-runtime.ssi:83 en/user_customization-runtime.ssi:92
@@ -393,12 +395,12 @@ msgstr ""
 #: en/user_customization-runtime.ssi:237 en/user_customization-runtime.ssi:245
 #: en/user_customization-runtime.ssi:253 en/user_customization-runtime.ssi:261
 #: en/user_customization-runtime.ssi:269 en/user_customization-runtime.ssi:277
-#: en/user_customization-runtime.ssi:285 en/user_installation.ssi:38
-#: en/user_installation.ssi:48 en/user_installation.ssi:56
-#: en/user_installation.ssi:66 en/user_installation.ssi:74
-#: en/user_installation.ssi:82 en/user_installation.ssi:106
-#: en/user_installation.ssi:121 en/user_installation.ssi:134
-#: en/user_managing_a_configuration.ssi:22
+#: en/user_customization-runtime.ssi:285 en/user_installation.ssi:22
+#: en/user_installation.ssi:46 en/user_installation.ssi:56
+#: en/user_installation.ssi:64 en/user_installation.ssi:74
+#: en/user_installation.ssi:82 en/user_installation.ssi:90
+#: en/user_installation.ssi:110 en/user_installation.ssi:125
+#: en/user_installation.ssi:138 en/user_managing_a_configuration.ssi:22
 #: en/user_managing_a_configuration.ssi:32
 #: en/user_managing_a_configuration.ssi:55
 #: en/user_managing_a_configuration.ssi:67
@@ -408,14 +410,14 @@ msgid "code{"
 msgstr ""
 
 #. type: Plain text
-#: en/about_manual.ssi:94
+#: en/about_manual.ssi:96
 #, no-wrap
 msgid " # apt-get install make po4a ruby ruby-nokogiri sisu-complete\n"
 msgstr ""
 
 #. type: Plain text
-#: en/about_manual.ssi:96 en/about_manual.ssi:104 en/about_manual.ssi:112
-#: en/about_manual.ssi:120 en/about_manual.ssi:128 en/about_manual.ssi:136
+#: en/about_manual.ssi:98 en/about_manual.ssi:106 en/about_manual.ssi:114
+#: en/about_manual.ssi:122 en/about_manual.ssi:130 en/about_manual.ssi:138
 #: en/appendix_style-guide.ssi:128 en/appendix_style-guide.ssi:138
 #: en/appendix_style-guide.ssi:148 en/appendix_style-guide.ssi:158
 #: en/appendix_style-guide.ssi:173 en/appendix_style-guide.ssi:182
@@ -426,27 +428,23 @@ msgstr ""
 #: en/examples.ssi:169 en/examples.ssi:177 en/examples.ssi:197
 #: en/examples.ssi:207 en/examples.ssi:215 en/examples.ssi:231
 #: en/examples.ssi:239 en/examples.ssi:253 en/examples.ssi:261
-#: en/examples.ssi:269 en/examples.ssi:289 en/examples.ssi:298
-#: en/examples.ssi:308 en/examples.ssi:324 en/project_bugs.ssi:66
-#: en/project_coding-style.ssi:36 en/project_coding-style.ssi:47
-#: en/project_coding-style.ssi:59 en/project_coding-style.ssi:70
-#: en/project_coding-style.ssi:98 en/project_coding-style.ssi:106
-#: en/project_coding-style.ssi:119 en/project_coding-style.ssi:130
-#: en/project_contributing.ssi:41 en/project_contributing.ssi:55
-#: en/project_contributing.ssi:64 en/project_contributing.ssi:73
-#: en/project_contributing.ssi:83 en/project_contributing.ssi:91
-#: en/project_git.ssi:12 en/project_git.ssi:20 en/project_git.ssi:28
-#: en/project_git.ssi:38 en/project_git.ssi:48 en/project_git.ssi:60
-#: en/project_procedures.ssi:47 en/project_procedures.ssi:92
-#: en/user_basics.ssi:54 en/user_basics.ssi:62 en/user_basics.ssi:72
-#: en/user_basics.ssi:91 en/user_basics.ssi:105 en/user_basics.ssi:117
-#: en/user_basics.ssi:125 en/user_basics.ssi:163 en/user_basics.ssi:171
-#: en/user_basics.ssi:184 en/user_basics.ssi:194 en/user_basics.ssi:202
-#: en/user_basics.ssi:214 en/user_basics.ssi:222 en/user_basics.ssi:230
-#: en/user_basics.ssi:242 en/user_basics.ssi:254 en/user_basics.ssi:264
-#: en/user_basics.ssi:274 en/user_basics.ssi:311 en/user_basics.ssi:323
-#: en/user_basics.ssi:339 en/user_basics.ssi:347 en/user_basics.ssi:374
-#: en/user_basics.ssi:394 en/user_basics.ssi:410
+#: en/examples.ssi:269 en/examples.ssi:277 en/examples.ssi:297
+#: en/examples.ssi:306 en/examples.ssi:316 en/examples.ssi:332
+#: en/project_bugs.ssi:73 en/project_coding-style.ssi:38
+#: en/project_coding-style.ssi:69 en/project_coding-style.ssi:79
+#: en/project_coding-style.ssi:89 en/project_coding-style.ssi:102
+#: en/project_coding-style.ssi:112 en/project_coding-style.ssi:123
+#: en/project_coding-style.ssi:149 en/project_coding-style.ssi:157
+#: en/project_coding-style.ssi:169 en/project_coding-style.ssi:179
+#: en/user_basics.ssi:38 en/user_basics.ssi:46 en/user_basics.ssi:56
+#: en/user_basics.ssi:75 en/user_basics.ssi:89 en/user_basics.ssi:101
+#: en/user_basics.ssi:109 en/user_basics.ssi:147 en/user_basics.ssi:155
+#: en/user_basics.ssi:168 en/user_basics.ssi:178 en/user_basics.ssi:186
+#: en/user_basics.ssi:198 en/user_basics.ssi:206 en/user_basics.ssi:214
+#: en/user_basics.ssi:226 en/user_basics.ssi:238 en/user_basics.ssi:248
+#: en/user_basics.ssi:258 en/user_basics.ssi:295 en/user_basics.ssi:307
+#: en/user_basics.ssi:323 en/user_basics.ssi:331 en/user_basics.ssi:358
+#: en/user_basics.ssi:378 en/user_basics.ssi:394
 #: en/user_customization-binary.ssi:25 en/user_customization-contents.ssi:29
 #: en/user_customization-contents.ssi:43 en/user_customization-contents.ssi:55
 #: en/user_customization-installer.ssi:38
@@ -456,18 +454,19 @@ msgstr ""
 #: en/user_customization-packages.ssi:100
 #: en/user_customization-packages.ssi:110
 #: en/user_customization-packages.ssi:118
-#: en/user_customization-packages.ssi:143
-#: en/user_customization-packages.ssi:157
-#: en/user_customization-packages.ssi:167
-#: en/user_customization-packages.ssi:177
-#: en/user_customization-packages.ssi:201
-#: en/user_customization-packages.ssi:216
-#: en/user_customization-packages.ssi:294
-#: en/user_customization-packages.ssi:306
-#: en/user_customization-packages.ssi:316
-#: en/user_customization-packages.ssi:330
-#: en/user_customization-packages.ssi:355
-#: en/user_customization-packages.ssi:364 en/user_customization-runtime.ssi:18
+#: en/user_customization-packages.ssi:145
+#: en/user_customization-packages.ssi:159
+#: en/user_customization-packages.ssi:169
+#: en/user_customization-packages.ssi:179
+#: en/user_customization-packages.ssi:203
+#: en/user_customization-packages.ssi:218
+#: en/user_customization-packages.ssi:296
+#: en/user_customization-packages.ssi:308
+#: en/user_customization-packages.ssi:318
+#: en/user_customization-packages.ssi:333
+#: en/user_customization-packages.ssi:347
+#: en/user_customization-packages.ssi:372
+#: en/user_customization-packages.ssi:381 en/user_customization-runtime.ssi:18
 #: en/user_customization-runtime.ssi:30 en/user_customization-runtime.ssi:48
 #: en/user_customization-runtime.ssi:69 en/user_customization-runtime.ssi:79
 #: en/user_customization-runtime.ssi:88 en/user_customization-runtime.ssi:97
@@ -479,12 +478,12 @@ msgstr ""
 #: en/user_customization-runtime.ssi:241 en/user_customization-runtime.ssi:249
 #: en/user_customization-runtime.ssi:257 en/user_customization-runtime.ssi:265
 #: en/user_customization-runtime.ssi:273 en/user_customization-runtime.ssi:281
-#: en/user_customization-runtime.ssi:289 en/user_installation.ssi:42
-#: en/user_installation.ssi:52 en/user_installation.ssi:62
+#: en/user_customization-runtime.ssi:289 en/user_installation.ssi:26
+#: en/user_installation.ssi:50 en/user_installation.ssi:60
 #: en/user_installation.ssi:70 en/user_installation.ssi:78
-#: en/user_installation.ssi:86 en/user_installation.ssi:111
-#: en/user_installation.ssi:128 en/user_installation.ssi:139
-#: en/user_managing_a_configuration.ssi:28
+#: en/user_installation.ssi:86 en/user_installation.ssi:94
+#: en/user_installation.ssi:115 en/user_installation.ssi:132
+#: en/user_installation.ssi:142 en/user_managing_a_configuration.ssi:28
 #: en/user_managing_a_configuration.ssi:43
 #: en/user_managing_a_configuration.ssi:61
 #: en/user_managing_a_configuration.ssi:72
@@ -494,20 +493,20 @@ msgid "}code"
 msgstr ""
 
 #. type: Plain text
-#: en/about_manual.ssi:98
+#: en/about_manual.ssi:100
 msgid ""
 "You may build the live-manual from the top level directory of your Git "
 "checkout by executing:"
 msgstr ""
 
 #. type: Plain text
-#: en/about_manual.ssi:102
+#: en/about_manual.ssi:104
 #, no-wrap
 msgid " $ make build\n"
 msgstr ""
 
 #. type: Plain text
-#: en/about_manual.ssi:106
+#: en/about_manual.ssi:108
 msgid ""
 "Since it takes a while to build the manual in all supported languages, "
 "authors may find it convenient to use one of the fast proofing shortcuts "
@@ -519,48 +518,48 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: en/about_manual.ssi:110
+#: en/about_manual.ssi:112
 #, no-wrap
 msgid " $ make build PROOF=1\n"
 msgstr ""
 
 #. type: Plain text
-#: en/about_manual.ssi:114
+#: en/about_manual.ssi:116
 msgid ""
 "When proofing one of the translations it is possible to build only one "
 "language by executing, e.g:"
 msgstr ""
 
 #. type: Plain text
-#: en/about_manual.ssi:118
+#: en/about_manual.ssi:120
 #, no-wrap
 msgid " $ make build LANGUAGES=de\n"
 msgstr ""
 
 #. type: Plain text
-#: en/about_manual.ssi:122
+#: en/about_manual.ssi:124
 msgid "It is also possible to build by document type, e.g:"
 msgstr ""
 
 #. type: Plain text
-#: en/about_manual.ssi:126
+#: en/about_manual.ssi:128
 #, no-wrap
 msgid " $ make build FORMATS=pdf\n"
 msgstr ""
 
 #. type: Plain text
-#: en/about_manual.ssi:130
+#: en/about_manual.ssi:132
 msgid "Or combine both, e.g:"
 msgstr ""
 
 #. type: Plain text
-#: en/about_manual.ssi:134
+#: en/about_manual.ssi:136
 #, no-wrap
 msgid " $ make build LANGUAGES=de FORMATS=html\n"
 msgstr ""
 
 #. type: Plain text
-#: en/about_manual.ssi:138
+#: en/about_manual.ssi:140
 msgid ""
 "After revising your work and making sure that everything is fine, do not use "
 "#{make commit}# unless you are updating translations in the commit, and in "
@@ -570,18 +569,18 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: en/about_manual.ssi:140
+#: en/about_manual.ssi:142
 msgid "3~translation Translation"
 msgstr ""
 
 #. type: Plain text
-#: en/about_manual.ssi:142
+#: en/about_manual.ssi:144
 #, no-wrap
 msgid "*{Note:}* For the translation of the man pages see {Translation of man pages}#translation-of-manpages\n"
 msgstr ""
 
 #. type: Plain text
-#: en/about_manual.ssi:144
+#: en/about_manual.ssi:146
 msgid ""
 "In order to translate live-manual, follow these steps depending on whether "
 "you are starting a translation from scratch or continue working on an "
@@ -589,12 +588,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: en/about_manual.ssi:146
+#: en/about_manual.ssi:148
 msgid "_* Start a new translation from scratch"
 msgstr ""
 
 #. type: Plain text
-#: en/about_manual.ssi:148
+#: en/about_manual.ssi:150
 msgid ""
 "_2* Translate the *{about_manual.ssi.pot}*, *{about_project.ssi.pot}* and "
 "*{index.html.in.pot}* files in #{manual/pot/}# to your language with your "
@@ -605,21 +604,22 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: en/about_manual.ssi:150
+#: en/about_manual.ssi:152
 msgid ""
 "_2* Once checked, to enable a new language in the autobuild it is enough to "
-"add the initial translated files to #{manual/po/${LANGUAGE}/}# and run "
-"#{make commit}#. And then, edit #{manual/_sisu/home/index.html}# adding the "
-"name of the language and its name in English between brackets."
-msgstr ""
-
-#. type: Plain text
-#: en/about_manual.ssi:152
-msgid "_* Continue with an already started translation"
+"add the initial translated files to #{manual/po/${LANGUAGE}/}# and edit "
+"#{manual/_sisu/home/index.html}# adding the name of the language and its "
+"name in English between brackets. And then, add the folder #{manual/"
+"${LANGUAGE}/}# to the file #{.gitignore}#. Finally, run #{make commit}#."
 msgstr ""
 
 #. type: Plain text
 #: en/about_manual.ssi:154
+msgid "_* Continue with an already started translation"
+msgstr ""
+
+#. type: Plain text
+#: en/about_manual.ssi:156
 msgid ""
 "_2* If your target language has already been added, you can randomly "
 "continue translating the remaining .po files in #{manual/po/${LANGUAGE}/}# "
@@ -627,7 +627,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: en/about_manual.ssi:156
+#: en/about_manual.ssi:158
 msgid ""
 "_2* Do not forget that you need to run #{make commit}# to ensure that the "
 "translated manuals are updated from the .po files and then you can review "
@@ -638,7 +638,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: en/about_manual.ssi:158
+#: en/about_manual.ssi:160
 msgid ""
 "After running #{make commit}# you will see some text scroll by. These are "
 "basically informative messages about the processing status and also some "
@@ -647,7 +647,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: en/about_manual.ssi:160
+#: en/about_manual.ssi:162
 msgid ""
 "live-manual comes with two utilities that can greatly help translators to "
 "find untranslated and changed strings. The first one is \"make translate\". "
@@ -658,7 +658,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: en/about_manual.ssi:162
+#: en/about_manual.ssi:164
 msgid ""
 "Keep in mind that even though these utilities might be really helpful to do "
 "translation work on the command line, the use of an specialized tool like /"
@@ -668,7 +668,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: en/about_manual.ssi:163
+#: en/about_manual.ssi:165
 #, no-wrap
 msgid "*{Note:}* You can use #{make clean}# to clean your git tree before pushing. This step is not compulsory thanks to the .gitignore file but it is a good practice to avoid committing files involuntarily.\n"
 msgstr ""
