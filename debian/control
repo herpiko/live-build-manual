@@ -11,7 +11,7 @@ Build-Depends:
 Build-Depends-Indep:
  locales,
  po4a,
- sisu-complete (>= 4.2.5-2),
+ sisu-complete,
 Build-Conflicts:
  locales-all,
 Standards-Version: 3.9.6
