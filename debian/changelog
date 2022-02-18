@@ -9,6 +9,8 @@ live-manual (2:20151218) UNRELEASED; urgency=low
   * Apply multi-arch hints.
     + live-manual-epub, live-manual-html, live-manual-odf, live-manual-pdf,
       live-manual-txt: Add Multi-Arch: foreign.
+  * Remove constraints unnecessary since buster:
+    + Build-Depends-Indep: Drop versioned constraint on sisu-complete.
 
  -- Debian Janitor <janitor@jelmer.uk>  Sun, 07 Jun 2020 23:39:12 -0000
 
