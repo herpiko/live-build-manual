@@ -77,6 +77,8 @@ You should also put the ASCII-armored GPG key used to sign the repository into #
 
 Should you need custom APT pinning, such APT preferences snippets can be placed in #{config/archives/your-repository.pref.{binary,chroot}}# files and will be automatically added to your live system's #{/etc/apt/preferences.d/}# directory.
 
+Similarly, if you need custom APT_AUTH.CONF(5) authentication configuration, this can be placed in #{config/archives/your-repository.auth.{binary,chroot}}# files and will be automatically added to your live system's #{/etc/apt/auth.conf.d/}# directory
+
 2~choosing-packages-to-install Choosing packages to install
 
 There are a number of ways to choose which packages live-build will install in your image, covering a variety of different needs. You can simply name individual packages to install in a package list. You can also use metapackages in those lists, or select them using package control file fields. And finally, you may place package files in your #{config/}# tree, which is well suited to testing of new or experimental packages before they are available from a repository.
