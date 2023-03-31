@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: live-manual 5.0~a2-1\n"
-"POT-Creation-Date: 2022-01-08 13:39+0000\n"
+"POT-Creation-Date: 2023-03-19 09:41+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,7 +36,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "@rights:\n"
-" :copyright: Copyright (C) 2006-2015 Live Systems Project, Copyright (C) 2016-2022 The Debian Live team\n"
+" :copyright: Copyright (C) 2006-2015 Live Systems Project, Copyright (C) 2016-2023 The Debian Live team\n"
 " :license: This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.<br><br>This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.<br><br>You should have received a copy of the GNU General Public License along with this program. If not, see http://www.gnu.org/licenses/. <br><br>The complete text of the GNU General Public License can be found in /usr/share/common-licenses/GPL-3 file.\n"
 msgstr ""
 
@@ -45,7 +45,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "@date:\n"
-" :published: 2022-01-08\n"
+" :published: 2023-03-19\n"
 msgstr ""
 
 #. type: Plain text
@@ -58,10 +58,10 @@ msgstr ""
 #, no-wrap
 msgid ""
 "@make:\n"
-" :bold: /${stable}|${testing}|stretch|buster|sid/\n"
+" :bold: /${stable}|${testing}|stretch|buster|bullseye|bookworm|trixie|forky|sid/\n"
 " :italics: /live-boot|live-build|live-config|live-config-sysvinit|live-config-systemd|live-manual|live-tools|live-images|live-installer|debian-installer-launcher/\n"
 " :num_top: 1\n"
-" :substitute: /${stable}/,'stretch' /${testing}/,'buster' /${project}/,'Debian Live Project'\n"
+" :substitute: /${stable}/,'bookworm' /${testing}/,'trixie' /${project}/,'Debian Live Project'\n"
 msgstr ""
 
 #. type: Plain text
