@@ -113,7 +113,7 @@ msgstr ""
 #. type: Plain text
 #: en/about_manual.ssi:16
 msgid ""
-"First, read this chapter, {About this manual}#about-manual, from the "
+"Pertama, read this chapter, {About this manual}#about-manual, from the "
 "beginning and ending with the {Terms}#terms section. Next, skip to the three "
 "tutorials at the front of the {Examples}#examples section designed to teach "
 "you image building and customization basics. Read {Using the examples}#using-"
